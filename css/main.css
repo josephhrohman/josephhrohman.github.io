@@ -1,6 +1,5 @@
 body {
     width: 100vw;
-    background-color: white;
     margin: 0;
     z-index: inherit;
 }
@@ -15,7 +14,7 @@ body {
         height: 20vw;
         top: 30vh;
     }
-.hold{
+.path{
     display: none;
 }
 .lock{
@@ -24,49 +23,28 @@ body {
     justify-content: center;
     width: 90vw;
     margin: 0 auto;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #C5DDE2;
-}
-h2{
-    /* border: 1px solid black; */
-    height: 5vh; 
-    font-size: 2vh;
+    font-family: 'Roboto Slab', serif;
 }
 /* _____________________________________________________________________________________________________ */
-/* header {
+header {
+    display: flex;
+    flex-direction: column;
+    top: 10vh;
+    position: fixed;
+}
+    h2{
+        /* border: 1px solid black; */
+        height: 5vh; 
+        font-size: 2vh;
+    }
+/* _____________________________________________________________________________________________________ */
+main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 100vh;
-}
-    .top {
-        display: flex;
-    }
-        nav {
-            display: flex;
-            position: fixed;
-            z-index: 2;
-            top: 0vh;
-            right: 5vw;
-            height: 5vh;
-            justify-content: center;
-        }
-            .a{
-                padding: 1vh 4vw;
-                background-color: #36595D;
-            }
-            .a:hover{
-                background-color: #2E4852;
-            }
-                .navLink{
-                    text-decoration: none;
-                    color: white;
-                } */
-/* _____________________________________________________________________________________________________ */
-main {
-    /* border: 1px solid black; */
-    display: flex;
-    flex-direction: column;
+    align-items: center;
+    margin-left: 10vw;
+    margin-top: 10vh;
 }
 /* _____________________________________________________________________________________________________ */
 
@@ -77,26 +55,27 @@ main {
     .interests{
         /* border: 1px solid black; */
         display: flex;
-        height: 90vh;
+        height: 80vh;
         flex-direction: column;
-        background-color: #ABCECF;
     }
         .b{
             /* border: 1px solid black; */
             display: flex;
             flex-flow: wrap;
-            height: 85vh;
+            height: 80vh;
             justify-content: space-around;
+            align-content: center;
         }
             .imgsInterests {
                 /* border: 1px solid black; */
                 display: flex;
-                max-width: 20vw;
-                max-height: 20vw;
+                max-width: 19vw;
+                max-height: 19vw;
                 filter: brightness(1);
                 transition: transform 0.5s;
             }
             .imgsInterests:hover{
+                z-index: 2;
                 filter: brightness(1.1);
                 transform: scale(1.2); 
             }
@@ -104,55 +83,55 @@ main {
 .colProjects{
     display: none;
 }
-.projects{
-    background-color: #ABCECF;
-    display: flex;
-    height: 90vh;
-    flex-flow: wrap;
-    justify-content: center;
-    align-content: flex-end;
-    align-items: baseline;
-}
-    .layer2 {
-        /* border: 1px solid black; */
+    .projects{
         display: flex;
-        max-width: 22.5vw;
-        max-height: 22.5vw; 
-        z-index: 0;  
+        height: 80vh;
+        flex-flow: wrap;
+        justify-content: center;
+        align-items: center;
     }
-    .layer1 {
-        /* border: 1px solid black; */
-        display: flex;
-        max-width: 22.5vw;
-        max-height: 22.5vw;
-        transform-origin: bottom left; 
-        transform: scale(1.2);  
-        z-index: 1;
-    }
+        .layer2 {
+            /* border: 1px solid black; */
+            display: flex;
+            max-width: 22.5vw;
+            max-height: 22.5vw; 
+            z-index: 0; 
+            transition: transform 0.5s; 
+        }
+        .layer1 {
+            /* border: 1px solid black; */
+            display: flex;
+            max-width: 22.5vw;
+            max-height: 22.5vw;
+            transition: transform 0.5s;
+            transform: scale(1.2);  
+            z-index: 1;
+        }
 /* _____________________________________________________________________________________________________ */
 .colStory{
     display: none;
 }
-.story{
-    display: flex;
-    height: 100vh;
-    justify-content: center;
-    background-color: #ABCECF;
-}
+    .story{
+        display: flex;
+        height: 100vh;
+        justify-content: center;
+    }
 /* _____________________________________________________________________________________________________ */
 .colContact{
     display: none;
 }
-.contact{
-    display: flex;
-    height: 100vh;
-    justify-content: center;
-}
+    .contact{
+        display: flex;
+        height: 100vh;
+        justify-content: center;
+    }
+
 /* _____________________________________________________________________________________________________ */
 footer {
     display: flex;
     justify-content: center;
-    background-color: #ABCECF;
+    position:fixed;
+    top: 90vh;
 }
     h3 {
         text-align: center;

@@ -1,7 +1,7 @@
 let x = 0;
 // Page reveal__________________________________________________________________________________________________
 $('#unlock').click(function(){
-        $('.hold').css('display','block');
+        $('.path').css('display','block');
         $('.key').css('display','none');
 })
 // Interests reveal / hide__________________________________________________________________________________________________
@@ -64,3 +64,11 @@ $('#3').click(function(){
 })
 
 // 
+
+// Nav: Animations__________________________________________________________________________________________________
+document.getElementById("target").animate([
+    { transform: 'translate3D(0, 0, 0)' }, 
+    { transform: 'translate3D(0, -300px, 0)' }
+    ], {
+    duration: 1000,
+    })
