@@ -1,0 +1,160 @@
+body {
+    width: 100vw;
+    background-color: white;
+    margin: 0;
+    z-index: inherit;
+}
+.key {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+    .imgLogo{
+        position: fixed;
+        width: 20vw;
+        height: 20vw;
+        top: 30vh;
+    }
+.hold{
+    display: none;
+}
+.lock{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90vw;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #C5DDE2;
+}
+h2{
+    /* border: 1px solid black; */
+    height: 5vh; 
+    font-size: 2vh;
+}
+/* _____________________________________________________________________________________________________ */
+/* header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+    .top {
+        display: flex;
+    }
+        nav {
+            display: flex;
+            position: fixed;
+            z-index: 2;
+            top: 0vh;
+            right: 5vw;
+            height: 5vh;
+            justify-content: center;
+        }
+            .a{
+                padding: 1vh 4vw;
+                background-color: #36595D;
+            }
+            .a:hover{
+                background-color: #2E4852;
+            }
+                .navLink{
+                    text-decoration: none;
+                    color: white;
+                } */
+/* _____________________________________________________________________________________________________ */
+main {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+}
+/* _____________________________________________________________________________________________________ */
+
+/* _____________________________________________________________________________________________________ */
+.colInterests{
+    display: none;
+}
+    .interests{
+        /* border: 1px solid black; */
+        display: flex;
+        height: 90vh;
+        flex-direction: column;
+        background-color: #ABCECF;
+    }
+        .b{
+            /* border: 1px solid black; */
+            display: flex;
+            flex-flow: wrap;
+            height: 85vh;
+            justify-content: space-around;
+        }
+            .imgsInterests {
+                /* border: 1px solid black; */
+                display: flex;
+                max-width: 20vw;
+                max-height: 20vw;
+                filter: brightness(1);
+                transition: transform 0.5s;
+            }
+            .imgsInterests:hover{
+                filter: brightness(1.1);
+                transform: scale(1.2); 
+            }
+/* _____________________________________________________________________________________________________ */
+.colProjects{
+    display: none;
+}
+.projects{
+    background-color: #ABCECF;
+    display: flex;
+    height: 90vh;
+    flex-flow: wrap;
+    justify-content: center;
+    align-content: flex-end;
+    align-items: baseline;
+}
+    .layer2 {
+        /* border: 1px solid black; */
+        display: flex;
+        max-width: 22.5vw;
+        max-height: 22.5vw; 
+        z-index: 0;  
+    }
+    .layer1 {
+        /* border: 1px solid black; */
+        display: flex;
+        max-width: 22.5vw;
+        max-height: 22.5vw;
+        transform-origin: bottom left; 
+        transform: scale(1.2);  
+        z-index: 1;
+    }
+/* _____________________________________________________________________________________________________ */
+.colStory{
+    display: none;
+}
+.story{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    background-color: #ABCECF;
+}
+/* _____________________________________________________________________________________________________ */
+.colContact{
+    display: none;
+}
+.contact{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+}
+/* _____________________________________________________________________________________________________ */
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #ABCECF;
+}
+    h3 {
+        text-align: center;
+    }
+/* _____________________________________________________________________________________________________ */
