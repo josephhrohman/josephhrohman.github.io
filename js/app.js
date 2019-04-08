@@ -66,9 +66,9 @@ $('#3').click(function(){
 // 
 
 // Nav: Animations__________________________________________________________________________________________________
-document.getElementById("target").animate([
-    { transform: 'translate3D(0, 0, 0)' }, 
-    { transform: 'translate3D(0, -300px, 0)' }
-    ], {
-    duration: 1000,
-    })
+// document.getElementById("target").animate([
+//     { transform: 'translate3D(0, 0, 0)' }, 
+//     { transform: 'translate3D(0, -300px, 0)' }
+//     ], {
+//     duration: 1000,
+//     })
