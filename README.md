@@ -1,37 +1,30 @@
-## Welcome to GitHub Pages
+# josephhrohman.github.io
+About Me Website
 
-You can use the [editor on GitHub](https://github.com/josephhrohman/josephhrohman.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Technologies used:
+    - Pen & Paper
+    - Computer
+    - MDN / W3 / Stackflow for references
+    - A few google image searches for design inspiration
+    - GA Github Lessons
+    - HTML, CSS, JS
+Your process/approach:
+    - I first thought about what categories would be good to feature in an 'about me' website: contact, about/story, interests, etc.
+    - I did a 6 - panel wireframe to flush out these sections and think of creative ways to display them.
+Unsolved problems:
+    - While I was able to use a few animations, I would have liked to make my carosel actually slide.  I did wait until the last minute to complete this aspect because I got wrapped up in the other sections, styling, and design.
+    - OnClick of the nav will toggle the background color of 'Interests' however would lock the background color of the other elements with the background color.  Using the same code and different variables.
+Your biggest wins and challenges:
+    - Biggest Challenge
+        - Tiiiiime management
+        - Sticking to one design
+        - Planning may be one of the most important things, but flushing out every detail before starting is probably not the greatest move
+    - Biggest Win
+        - I now have a much better grasp of flexbox - I'm able to predict what is going to happen before testing
+        - My javascript (while not dry in the slightest) I was able to write quickly and was certain that it would proabbly do what I wanted it to.
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Screenshot:
+![alt text](./images/screenShots/zoomNoZIndex.png)
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/josephhrohman/josephhrohman.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
