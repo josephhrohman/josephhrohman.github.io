@@ -36,6 +36,7 @@ header {
         /* border: 1px solid black; */
         height: 5vh; 
         font-size: 2vh;
+        background-color: white;
     }
 /* _____________________________________________________________________________________________________ */
 main {
@@ -83,43 +84,69 @@ main {
 }
     .projects{
         display: flex;
+        flex-direction: column;
         height: 80vh;
+        width: 80vw;
         flex-flow: wrap;
         justify-content: center;
         align-items: center;
     }
-        .layer2 {
-            /* border: 1px solid black; */
+        .slider{
             display: flex;
-            max-width: 22.5vw;
-            max-height: 22.5vw; 
-            z-index: 0; 
-            transition: transform 0.5s; 
+            justify-content: center;
+
         }
-        .layer1 {
-            /* border: 1px solid black; */
+            .sliderImgs{
+                display: none;
+                max-width: auto;
+                max-height: 30vw;
+            }
+            #img1{
+                display: block;
+            }
+        .guide{
             display: flex;
-            max-width: 22.5vw;
-            max-height: 22.5vw;
-            transition: transform 0.5s;
-            transform: scale(1.2);  
-            z-index: 1;
+            flex-direction: row;
         }
+            .layer2 {
+                /* border: 1px solid black; */
+                display: flex;
+                max-width: 10vw;
+                max-height: 10vw; 
+                z-index: 0; 
+                transition: transform 0.5s; 
+            }
+            .layer1 {
+                /* border: 1px solid black; */
+                display: flex;
+                max-width: 10vw;
+                max-height: 10vw;
+                transition: transform 0.5s;
+                transform: scale(1.2);  
+                z-index: 1;
+            }
 
 /* _____________________________________________________________________________________________________ */
 .colStory{
     display: none;
     width: 80vw;
+    align-items: center;
 }
     .story{
         display: flex;
+        flex-direction: column;
         height: 80vh;
         width: 80vw;
         justify-content: center;
+        align-items: center;
     }
     .xmarks{
-        width: 100%;
+        width: 45vw;
         max-height: auto;
+
+    }
+    p{
+        text-align: center;
     }
 /* _____________________________________________________________________________________________________ */
 .colContact{
@@ -154,8 +181,10 @@ main {
             align-items: center;
         }
             .submit{
-                height: 30vh;
+                height: 5vh;
                 width: 10vw;
+                background-color: #C4C4C4;
+                border-radius: 10px;
             }
             .comments{
                 height: 30vh;
@@ -202,8 +231,30 @@ footer {
         max-height: 23vw;
     }
     /* ______________________________*/
-
+    .projects{
+        margin-top: 15vh;
+        height: 60vh;
+    }
+    .sliderImgs{
+        max-height: 40vh;
+        max-width: auto;
+    }
+    /* ______________________________*/
+    .story{
+        margin-top: 15vh;
+        height: 60vh;
+    }
+    /* ______________________________*/
+    .colContact{
+        margin-top: 15vh;
+    }
+    .contact{
+        margin-top: 15vh;
+    }
+    .class{
+        height: 5vh;
+    }
 }
 /* _____________________________________________________________________________________________________ */
-/* Iphone 8 */ @media only screen and (max-width: 380px){
-}
+/* Iphone 8 @media only screen and (max-width: 380px){
+} */
