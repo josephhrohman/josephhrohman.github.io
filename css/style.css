@@ -1,0 +1,23 @@
+/* <div class="key">
+  <img class="imgLogo" id="unlock" src="./images/logo/LogoTransparent.png" alt="JR Logo" />
+  <h1>Site Under React'factoring</h1>
+  <p>Joseph Rohman</p>
+  <a href="https://www.linkedin.com/in/jhrohman/">LinkedIn</a>
+  </div> */
+
+
+.key {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 18px;
+}
+
+p {
+  font-size: 12px;
+}
+

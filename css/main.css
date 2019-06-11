@@ -5,13 +5,14 @@ body {
 }
 .key {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-content: center;
 }
     .imgLogo{
+        position: fixed;
         width: 20vw;
         height: 20vw;
+        top: 30vh;
     }
 .path{
     display: none;
