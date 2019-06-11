@@ -5,12 +5,16 @@
   <a href="https://www.linkedin.com/in/jhrohman/">LinkedIn</a>
   </div> */
 
-
 .key {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+img {
+  width: 20vw;
+  height: 20vw;
 }
 
 h1 {
