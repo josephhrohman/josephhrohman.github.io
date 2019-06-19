@@ -3,7 +3,7 @@ About Me Website
 
 
 Technologies used:
-    - Pen & Paper
+- Pen & Paper
     - Computer
     - MDN / W3 / Stackflow for references
     - A few google image searches for design inspiration
