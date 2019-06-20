@@ -33,7 +33,15 @@
   margin: 1vw;
 }
 
-p {
-  font-size: 18px;
-  color: #727272;
+@media only screen and (max-width: 450px) {
+  .imgLogo {
+    width: 60vw;
+    height: auto;
+    opacity: 0.25;
+  }
+  .socialLogo {
+    width: 10vw;
+    height: auto;
+    margin: 2vw;
+  }
 }
