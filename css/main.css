@@ -1,260 +1,47 @@
-body {
-    width: 100vw;
-    margin: 0;
-    z-index: inherit;
-}
+/* * {
+  border: 1px solid black;
+} */
+
 .key {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     align-content: center;
-}
-    .imgLogo{
-        position: fixed;
-        width: 20vw;
-        height: 20vw;
-        top: 30vh;
-    }
-.path{
-    display: none;
-}
-.lock{
+    height: 90vh;
+  }
+  
+  .left {
+    display: block;
+  }
+  
+  .imgLogo {
+    width: 20vw;
+    height: auto;
+    opacity: 0.25;
+  }
+  
+  .right {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    width: 90vw;
-    margin: 0 auto;
-    font-family: 'Roboto Slab', serif;
-}
-/* _____________________________________________________________________________________________________ */
-header {
-    display: flex;
-    flex-direction: column;
-    top: 10vh;
-    position: fixed;
-}
-    h2{
-        /* border: 1px solid black; */
-        height: 5vh; 
-        font-size: 2vh;
-        background-color: white;
-    }
-/* _____________________________________________________________________________________________________ */
-main {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
-    margin-left: 10vw;
-    margin-top: 10vh;
-}
-/* _____________________________________________________________________________________________________ */
-.colInterests{
-    display: none;
-}
-    .interests{
-        /* border: 1px solid black; */
-        display: flex;
-        height: 80vh;
-        flex-direction: column;
+  }
+  
+  .socialLogo {
+    width: 4vw;
+    height: auto;
+    margin: 1vw;
+  }
+  
+  @media only screen and (max-width: 450px) {
+    .imgLogo {
+      width: 60vw;
+      height: auto;
+      opacity: 0.25;
     }
-        .b{
-            /* border: 1px solid black; */
-            display: flex;
-            flex-flow: wrap;
-            height: 80vh;
-            justify-content: space-around;
-            align-content: center;
-        }
-            .imgsInterests {
-                /* border: 1px solid black; */
-                display: flex;
-                max-width: 19vw;
-                max-height: 19vw;
-                filter: brightness(1);
-                transition: transform 0.5s;
-            }
-            .imgsInterests:hover{
-                z-index: 2;
-                filter: brightness(1.1);
-                transform: scale(1.2); 
-            }
-/* _____________________________________________________________________________________________________ */
-.colProjects{
-    display: none;
-}
-    .projects{
-        display: flex;
-        flex-direction: column;
-        height: 80vh;
-        width: 80vw;
-        flex-flow: wrap;
-        justify-content: center;
-        align-items: center;
+    .socialLogo {
+      width: 10vw;
+      height: auto;
+      margin: 2vw;
     }
-        .slider{
-            display: flex;
-            justify-content: center;
-
-        }
-            .sliderImgs{
-                display: none;
-                max-width: auto;
-                max-height: 30vw;
-            }
-            #img1{
-                display: block;
-            }
-        .guide{
-            display: flex;
-            flex-direction: row;
-        }
-            .layer2 {
-                /* border: 1px solid black; */
-                display: flex;
-                max-width: 10vw;
-                max-height: 10vw; 
-                z-index: 0; 
-                transition: transform 0.5s; 
-            }
-            .layer1 {
-                /* border: 1px solid black; */
-                display: flex;
-                max-width: 10vw;
-                max-height: 10vw;
-                transition: transform 0.5s;
-                transform: scale(1.2);  
-                z-index: 1;
-            }
-
-/* _____________________________________________________________________________________________________ */
-.colStory{
-    display: none;
-    width: 80vw;
-    align-items: center;
-}
-    .story{
-        display: flex;
-        flex-direction: column;
-        height: 80vh;
-        width: 80vw;
-        justify-content: center;
-        align-items: center;
-    }
-    .xmarks{
-        width: 45vw;
-        max-height: auto;
-
-    }
-    p{
-        text-align: center;
-    }
-/* _____________________________________________________________________________________________________ */
-.colContact{
-    display: none;
-}
-    .contact{
-        display: flex;
-        flex-direction: column;
-        height: 60vh;
-        width: 80vw;
-        justify-content: center;
-        align-content: center;
-    }
-        .contactLogo{
-            max-width: 20vw;
-            max-height: 20vw;
-            margin: 0 auto;
-        }
-        .nameEmail{
-            display: flex;
-            justify-content: center;
-        }
-            .email, .name{
-                height: 3vh;
-                width: 30vw;
-                margin: 1vh 1vw;
-                padding: 0;
-            }
-        .commentsSubmit{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-            .submit{
-                height: 5vh;
-                width: 10vw;
-                background-color: #C4C4C4;
-                border-radius: 10px;
-            }
-            .comments{
-                height: 30vh;
-                width: 62vw;
-                margin: 1vh 1vw;
-                padding: 0;
-            }
-/* _____________________________________________________________________________________________________ */
-footer {
-    display: flex;
-    justify-content: center;
-    position:fixed;
-    top: 90vh;
-}
-    h3 {
-        text-align: center;
-    }
-/* _____________________________________________________________________________________________________ */
-/* Ipad */ @media screen and (max-width: 770px){
-    header{
-        top: 2vh;
-        width: 90vw;
-        text-align: center;
-    }
-    nav{
-        display: flex;
-        justify-content: center;
-    }
-    h2{
-        margin: 0 1vw;
-    }
-    /* ______________________________*/
-    main{
-        margin: 0 auto;
-    }
-    /* ______________________________*/
-    .b{
-        margin-top: 15vh;
-        height: 60vh;
-    }
-    .imgsInterests{
-        margin: 1vh 4vw;
-        max-width: 23vw;
-        max-height: 23vw;
-    }
-    /* ______________________________*/
-    .projects{
-        margin-top: 15vh;
-        height: 60vh;
-    }
-    .sliderImgs{
-        max-height: 40vh;
-        max-width: auto;
-    }
-    /* ______________________________*/
-    .story{
-        margin-top: 15vh;
-        height: 60vh;
-    }
-    /* ______________________________*/
-    .colContact{
-        margin-top: 15vh;
-    }
-    .contact{
-        margin-top: 15vh;
-    }
-    .class{
-        height: 5vh;
-    }
-}
-/* _____________________________________________________________________________________________________ */
-/* Iphone 8 @media only screen and (max-width: 380px){
-} */
+  }
