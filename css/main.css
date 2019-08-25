@@ -1,47 +1,122 @@
-/* * {
-  border: 1px solid black;
-} */
+* {
+  font-family: 'Oxygen', sans-serif;
+}
 
-.key {
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #2c3532;
+}
+
+nav {
+    position: absolute;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100vw;
+    top: 30px;
+}
+
+.nav-left {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-right {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-element-left {
+    text-align: left;
+    font-size: 1.8em;
+    color: white;
+    margin-left: 30px;
+}
+
+.nav-element-right {
+    text-align: right;
+    font-size: 1em;
+    color: white;
+    margin-right: 30px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+.header-border {
+    display: flex;
     justify-content: center;
     align-items: center;
-    align-content: center;
-    height: 90vh;
-  }
-  
-  .left {
-    display: block;
-  }
-  
-  .imgLogo {
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+    border: 2px solid white;
+    background-color: #2c3532;
+}
+
+.header-left {
+    margin-bottom: 50px;
+}
+
+.header-element-left {
+    text-align: right;
+    font-size: 1.8em;
+    color: white;
+    margin: 0 12px 0 0;
+}
+
+.header-element-left:hover {
+    color: #f2b686;
+}
+
+.header-divide{
+    height: 150px;
+    width: 2px;
+    background-color: white;
+}
+
+.header-right {
+    margin-top: 100px;
+}
+
+.header-element-right {
+    text-align: left;
+    font-size: 1.8em;
+    color: white;
+    margin: 0 0 0 12px;
+}
+
+main {
+    border: 1px solid white;
+    height: 200vw;
+}
+
+
+.img-logo {
     width: 20vw;
     height: auto;
     opacity: 0.25;
-  }
-  
-  .right {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .socialLogo {
+}
+
+.social-logo {
     width: 4vw;
     height: auto;
     margin: 1vw;
-  }
-  
-  @media only screen and (max-width: 450px) {
-    .imgLogo {
-      width: 60vw;
-      height: auto;
-      opacity: 0.25;
+}
+
+@media only screen and (max-width: 450px) {
+    .img-logo {
+        width: 60vw;
+        height: auto;
+        opacity: 0.25;
     }
-    .socialLogo {
-      width: 10vw;
-      height: auto;
-      margin: 2vw;
+    .social-logo {
+        width: 10vw;
+        height: auto;
+        margin: 2vw;
     }
-  }
+}
