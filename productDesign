@@ -22,26 +22,20 @@
   </nav>
 
   <header>
-    <div class="header-border">
-      <div class="header-left">
-        <div class="header-element-left" id="heLeft1">website</div>
-        <div class="header-element-left" id="heLeft2">product</div>
-        <div class="header-element-left" id="heLeft3">graphic</div>
-      </div>
-      <div class="header-divide"></div>
-      <div class="header-right">
-        <div class="header-element-right" id="heRight">design</div>
-      </div>
-    </div>
     </header>
 
   <main>
-    <!-- <div class="links">
-      <a href="https://www.linkedin.com/in/jhrohman/" class="social">LinkedIn</a>
-      <a href="https://profiles.generalassemb.ly/profiles/joseph-rohman" class="social">General Assembly</a>
-      <a href="https://github.com/josephhrohman" class="social">GitHub</a>
-    </div> -->
-    .
+    <div class="article-container">
+      <div class="article-title">
+        Raspberry Pi Gameboy
+      </div>
+      <div class="article-3d">
+        <Link rel="stylesheet" href=""><img src="#" alt="Rpi GB" /></Link>
+      </div>
+      <div class="article-description">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae eaque voluptatum sunt nemo itaque velit error saepe unde fugit eum ab quae repellendus dignissimos omnis ut, ratione, vitae nostrum. Maiores?
+      </div>
+    </div>
   </main>
 </body>
 </html>
