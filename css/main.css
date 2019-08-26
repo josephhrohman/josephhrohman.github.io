@@ -94,6 +94,8 @@ main {
     display: flex;
 }
 
+
+
 .social {
     position: sticky;
     text-decoration: none;
@@ -101,6 +103,5 @@ main {
 }
 
 @media only screen and (max-width: 450px) {
-    .social{
-    }
+    
 }
