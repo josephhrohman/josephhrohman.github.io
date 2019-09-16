@@ -67,13 +67,18 @@ main {
     background-color: white;
 }
 
+.me-img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
 .strip-2  {
     width: 80vw;
     height: 75vh;
     margin: 0 auto;
     background-image: url(../images/projects/img2.jpg);
     background-repeat: no-repeat;
-    background-size: 50%;
 }
 
 .strip-3  {
@@ -82,7 +87,6 @@ main {
     margin: 0 auto;
     background-image: url(../images/projects/img3.jpg);
     background-repeat: no-repeat;
-    background-size: 50%;
 }
 
 /* ____________ Index Page ____________ */
