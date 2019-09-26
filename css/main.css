@@ -6,7 +6,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #232121;
+    background-color: #323a44;
 }
 
 .background {
@@ -62,29 +62,85 @@ header  {
     margin: 0 0 0 15vw;
 }
 
-.web {
+
+.about {
     display: flex;
+    flex-direction: column;
     height: 100vh;
     width: 100vw;
 }
 
-.web-left {
+.about-top {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 10vh;
+    width: 100vw;
+    background-color: #406283;
+}
+
+.about-title {
+    font-size: 2em;
+    color: white;
+    font-family: 'Big Shoulders Text', cursive;
+}
+
+.about-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    width: 100vw;
+    background-color: white;
+}
+
+.about-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+}
+
+.about-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+}
+
+.about-img {
+    width: 20vw;
+    margin: 10px;
+}
+
+.web {
+    display: flex;
+    flex-direction: column;
     height: 100vh;
-    width: 30vw;
-    background-color: #f2b686;
+    width: 100vw;
+}
+
+.web-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    width: 100vw;
+    background-color: #788898;
 }
 
 .web-title {
     font-size: 2em;
+    color: white;
     font-family: 'Big Shoulders Text', cursive;
 }
 
-.web-right {
-    height: 100vh;
-    width: 70vw;
+.web-bottom {
+    height: 90vh;
+    width: 100vw;
     background-color: white;
     overflow: hidden;
     overflow-y: scroll;
@@ -92,28 +148,29 @@ header  {
 
 .product {
     display: flex;
+    flex-direction: column;
     height: 100vh;
     width: 100vw;
 }
 
-.product-left {
+.product-top {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    width: 30vw;
-    background-color: #232121;
+    height: 10vh;
+    width: 100vw;
+    background-color: #62aeb5;
 }
 
 .product-title {
     font-size: 2em;
-    color: #6bd6c2;
+    color: white;
     font-family: 'Big Shoulders Text', cursive;
 }
 
-.product-right {
-    height: 100vh;
-    width: 70vw;
+.product-bottom {
+    height: 90vw;
+    width: 100vw;
     background-color: white;
     overflow: hidden;
     overflow-y: scroll;
@@ -121,28 +178,29 @@ header  {
 
 .graphic {
     display: flex;
+    flex-direction: column;
     height: 100vh;
     width: 100vw;
 }
 
-.graphic-left {
+.graphic-top {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    width: 30vw;
-    background-color: white;
+    height: 10vh;
+    width: 100vw;
+    background-color: #c563d3;;
 }
 
 .graphic-title {
     font-size: 2em;
-    color: #f2b686;
+    color: white;
     font-family: 'Big Shoulders Text', cursive;
 }
 
-.graphic-right {
-    height: 100vh;
-    width: 70vw;
+.graphic-bottom {
+    height: 90vh;
+    width: 100vw;
     background-color: white;
     overflow: hidden;
     overflow-y: scroll;
@@ -151,8 +209,13 @@ header  {
 /* ____________ Gallery ____________ */
 
 .gallery {
-    /* display: flex; */
-    /* flex-wrap: wrap; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery-box {
+    margin: 1vw;
 }
 
 .gallery-img {
@@ -160,44 +223,6 @@ header  {
     width: 20vw;
     overflow: clip;
 }
-
-
-
-.about {
-    display: flex;
-    height: 100vh;
-    width: 100vw;
-}
-
-.about-left {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    width: 30vw;
-    background-color: #6bd6c2;
-}
-
-.about-title {
-    font-size: 2em;
-    color: white;
-}
-
-.about-right {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    width: 70vw;
-    background-color: white;
-}
-
-.about-img {
-    width: 20vw;
-    margin: 10px;
-}
-
 
 footer {
     display: flex;
@@ -214,30 +239,6 @@ footer {
 
 /* ____________ Product Design ____________ */
 
-.article-page {
-    display: flex;
-}
-
-.article-container {
-    display: flex;
-    height: 45vh;
-    width: 100vw;
-    box-shadow: 0px 0px 7px 5px #BABABA;
-}
-
-.article-img {
-    border: 1px solid black;
-    height: 45vh;
-    width: 45vh;
-    overflow: hidden;
-    object-fit: cover;
-    margin: auto;
-}
-
-.article-right {
-    border: 1px solid black;
-    width: 60vw;
-}
 
 /* ____________ Index Page ____________ */
 
