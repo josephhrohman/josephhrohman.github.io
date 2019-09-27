@@ -6,22 +6,54 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #323a44;
+    background-color: white;
+}
+
+.gradient {
+    position: fixed;
+    z-index: -2;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(21deg, #ad56bb, #788898, #f6f7f9, #62aeb5);
+    background-size: 1000% 1000%;
+    animation: MovingGradient 13s ease infinite;
+}
+
+@keyframes MovingGradient {
+    0%{background-position:94% 0%}
+    50%{background-position:7% 100%}
+    100%{background-position:94% 0%}
 }
 
 .background {
     position: fixed;
     z-index: -1;
-    background-image: url(/images/treeBackground.png);
-    background-size: 100vw;
-    background-repeat: no-repeat;
-    width: 110vw;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
     height: 100vh;
-    top: 100px;
-    left: 100px;
+    background-image: url(/images/treeBackgroundClip.png);
+    background-size: 150%;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 50vh 0 0 15vw;
+    box-sizing: border-box;
 }
 
-nav {
+.headline {
+    color: white;
+    width: 500px;
+    font-size: 3em;
+    font-style: italic;
+    margin: 0;
+}
+
+.spacer {
+    height: 100vh;
+    width: 100vw;
+}
+
+/* nav {
     position: fixed;
     z-index: -1;
     display: flex;
@@ -34,55 +66,31 @@ nav {
 .nav-element{
     text-decoration: none;
     text-align: right;
-    font-size: 1.2em;
+    font-size: 1.8em;
+    transition: color .5s;
     color: white;
     margin-right: 20px;
     margin-bottom: 5px;
+    font-family: 'Big Shoulders Text', cursive;
 }
+
+.nav-element:hover {
+    color: #62aeb5;
+} */
 
 main {
     display: flex;
     flex-direction: column;
-}
-
-/* ____________ Index Page ____________ */
-
-header  {
-    display: flex;
-    height: 100vh;
-    width: 100vw;
     align-items: center;
 }
 
-.headline {
-    color: white;
-    width: 500px;
-    font-size: 1.5em;
-    font-style: italic;
-    margin: 0 0 0 15vw;
-}
+/* ____________________________________ Index Page ____________________________________ */
 
-
+/* ___________________ About ___________________ */
 .about {
     display: flex;
-    flex-direction: column;
     height: 100vh;
     width: 100vw;
-}
-
-.about-top {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 10vh;
-    width: 100vw;
-    background-color: #406283;
-}
-
-.about-title {
-    font-size: 2em;
-    color: white;
-    font-family: 'Big Shoulders Text', cursive;
 }
 
 .about-bottom {
@@ -90,8 +98,8 @@ header  {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    height: 90vh;
-    width: 100vw;
+    height: 95vh;
+    width: 95vw;
     background-color: white;
 }
 
@@ -100,15 +108,13 @@ header  {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 100vh;
     width: 50vw;
-}
-
-.about-right {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 50vw;
+    background-image: url(/images/IMG_6062.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* border: 1px solid black; */
 }
 
 .about-img {
@@ -116,19 +122,58 @@ header  {
     margin: 10px;
 }
 
+.about-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50vw;
+    padding: 2.5vw;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.about-content-title {
+    font-size: 1.6em;
+    color: black;
+    margin: 0 0 10px 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.about-content {
+    font-size: 1em;
+    color: black;
+    margin: 5px 0;
+    padding: 0;
+}
+
+.resume-link {
+    height: 50px;
+    width: 50px;
+    margin: 10px 0;
+}
+
+.cv-icon {
+    height: 50px;
+    width: 50px;
+    margin: 0;
+}
+
+/* ___________________ Web Developement ___________________ */
+
 .web {
     display: flex;
     flex-direction: column;
     height: 100vh;
-    width: 100vw;
+    width: 95vw;
 }
 
 .web-top {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 10vh;
-    width: 100vw;
+    height: 5vh;
+    width: 95vw;
     background-color: #788898;
 }
 
@@ -139,26 +184,28 @@ header  {
 }
 
 .web-bottom {
-    height: 90vh;
-    width: 100vw;
+    height: 95vh;
+    width: 95vw;
     background-color: white;
     overflow: hidden;
     overflow-y: scroll;
 }
 
+/* ___________________ Product Design ___________________ */
+
 .product {
     display: flex;
     flex-direction: column;
     height: 100vh;
-    width: 100vw;
+    width: 95vw;
 }
 
 .product-top {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 10vh;
-    width: 100vw;
+    height: 5vh;
+    width: 95vw;
     background-color: #62aeb5;
 }
 
@@ -169,12 +216,14 @@ header  {
 }
 
 .product-bottom {
-    height: 90vw;
-    width: 100vw;
+    height: 95vw;
+    width: 95vw;
     background-color: white;
     overflow: hidden;
     overflow-y: scroll;
 }
+
+/* ___________________ Graphic Design ___________________ */
 
 .graphic {
     display: flex;
@@ -187,9 +236,9 @@ header  {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 10vh;
+    height: 5vh;
     width: 100vw;
-    background-color: #c563d3;;
+    background-color: #406283;;
 }
 
 .graphic-title {
@@ -199,14 +248,13 @@ header  {
 }
 
 .graphic-bottom {
-    height: 90vh;
-    width: 100vw;
+    height: 100vw;
     background-color: white;
     overflow: hidden;
-    overflow-y: scroll;
+    overflow-x: scroll;
 }
 
-/* ____________ Gallery ____________ */
+/* ___________________ Gallery ___________________ */
 
 .gallery {
     display: flex;
@@ -237,16 +285,11 @@ footer {
     margin: 5px;
 }
 
-/* ____________ Product Design ____________ */
-
-
 /* ____________ Index Page ____________ */
 
 @media only screen and (max-width: 450px) {
     
 }
-
-/* ____________ Website Desgin ____________ */
 
 
 
