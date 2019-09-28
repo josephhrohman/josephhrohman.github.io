@@ -270,17 +270,40 @@ main {
 
 /* ___________________ Gallery ___________________ */
 
-.gallery {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
 .gallery-box {
+    height: 20vw;
+    width: 20vw;
     margin: 1vw;
 }
 
-.gallery-img {
+.gallery-web {
+    height: 95vh;
+    width: 100vw;
+}
+
+.gallery-web-page1 {
+    width: 100vw;
+}
+
+.gallery-web-page2 {
+    width: 100vw;
+}
+
+.gallery-web-page3 {
+    width: 100vw;
+}
+
+.gallery-web-title {
+    font-size: 1em;
+    color: black;
+}
+
+.gallery-img-web {
+    height: 20vw;
+    /* width: 20vw; */
+}
+
+.gallery-img-graphic {
     height: auto;
     width: 20vw;
     overflow: clip;
@@ -299,7 +322,29 @@ footer {
     margin: 5px;
 }
 
-/* ____________ Index Page ____________ */
+/* ____________ Web Developement Article ____________ */
+
+.back {
+    height: 100vh;
+    width: 2vw;
+    transition: 0.2s;
+    background-color: #406283;
+}
+
+.back:hover {
+    height: 100vh;
+    width: 2vw;
+    background-color: #5c8ec0;
+}
+
+.back-tab {
+    transform: rotate(270deg);
+    color: white;
+    font-weight: bold;
+}
+
+/* ____________ Index Page Mobile ____________ */
+
 
 @media only screen and (max-width: 450px) {
     
