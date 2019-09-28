@@ -201,9 +201,82 @@ main {
     height: 95vh;
     width: 100vw;
     background-color: white;
-    overflow: hidden;
-    overflow-y: scroll;
 }
+
+.web-page-container {
+    height: 85vh;
+    width: 100vw;
+}
+
+.web-page-focused {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 85vh;
+    width: 100vw;
+}
+
+.web-page-unfocused {
+    display: none;
+}
+
+
+.web-page-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 70vh;
+    width: 25vw;
+}
+
+.web-page-img-container {
+    height: 25vw;
+    width: 25vw;
+    overflow: hidden;
+}
+
+.web-page-img {
+    height: 25vw;
+    width: auto;
+}
+
+.web-page-title {
+    font-weight: bold;
+    font-size: 1.3em;
+    margin: 0;
+}
+
+.web-page-content {
+    font-size: 1em;
+    margin: 0;
+}
+
+.web-page-selector-container {
+    display: flex;
+    justify-content: center;
+    height: 10vh;
+    width: 100vw;
+    /* border: 1px solid black; */
+}
+
+.web-page-selector-focused {
+    height: 20px;
+    width: 20px;
+    margin: 0 10px;
+    box-sizing: border-box;
+    background-color: #406283;
+    border-radius: 20px;
+}
+
+.web-page-selector-unfocused{
+    height: 20px;
+    width: 20px;
+    margin: 0 10px;
+    box-sizing: border-box;
+    border: 3px solid #406283;
+    border-radius: 20px;
+}
+
 
 /* ___________________ Product Design ___________________ */
 
@@ -268,46 +341,6 @@ main {
     overflow-x: scroll;
 }
 
-/* ___________________ Gallery ___________________ */
-
-.gallery-box {
-    height: 20vw;
-    width: 20vw;
-    margin: 1vw;
-}
-
-.gallery-web {
-    height: 95vh;
-    width: 100vw;
-}
-
-.gallery-web-page1 {
-    width: 100vw;
-}
-
-.gallery-web-page2 {
-    width: 100vw;
-}
-
-.gallery-web-page3 {
-    width: 100vw;
-}
-
-.gallery-web-title {
-    font-size: 1em;
-    color: black;
-}
-
-.gallery-img-web {
-    height: 20vw;
-    /* width: 20vw; */
-}
-
-.gallery-img-graphic {
-    height: auto;
-    width: 20vw;
-    overflow: clip;
-}
 
 footer {
     display: flex;
