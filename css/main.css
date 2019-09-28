@@ -48,6 +48,14 @@ body {
     margin: 0;
 }
 
+.tagline {
+    color: white;
+    width: 500px;
+    font-size: 1em;
+    font-style: italic;
+    margin: 0;
+}
+
 .spacer {
     height: 100vh;
     width: 100vw;
@@ -226,18 +234,19 @@ main {
     flex-direction: column;
     align-items: center;
     height: 70vh;
-    width: 25vw;
+    width: 33vw;
 }
 
 .web-page-img-container {
     height: 25vw;
-    width: 25vw;
+    width: 33vw;
     overflow: hidden;
+    border: 1px solid black;
 }
 
 .web-page-img {
-    height: 25vw;
-    width: auto;
+    height: auto;
+    width: 33vw;
 }
 
 .web-page-title {
