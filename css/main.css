@@ -136,6 +136,7 @@ main {
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
+    overflow: hidden;
     /* border: 1px solid black; */
 }
 
@@ -186,7 +187,6 @@ main {
 .web {
     display: flex;
     flex-direction: column;
-    height: 100vh;
     width: 100vw;
 }
 
@@ -194,23 +194,26 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 5vh;
+    height: 60vh;
     width: 100vw;
-    background-color: #788898;
+    background-color: rgba(255, 255, 255, .9);
 }
 
 .web-title {
     font-size: 2em;
-    color: white;
+    color: #5c8ec0;
     font-family: 'Big Shoulders Text', cursive;
 }
 
 .web-bottom {
-    height: 95vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     width: 100vw;
-    background-color: white;
+    margin: 0;
 }
 
+/* 
 .web-page-container {
     height: 85vh;
     width: 100vw;
@@ -226,46 +229,41 @@ main {
 
 .web-page-unfocused {
     display: none;
-}
+} */
 
-
+/* 
 .web-page-box {
     display: flex;
     flex-direction: column;
     align-items: center;
     height: 70vh;
     width: 33vw;
-}
+} */
 
-.web-page-img-container {
+/* .web-page-img-container {
     height: 25vw;
     width: 33vw;
     overflow: hidden;
-    border: 1px solid black;
-}
+} */
 
+/* 
 .web-page-img {
     height: auto;
     width: 33vw;
-}
+} */
 
-.web-page-title {
-    font-weight: bold;
-    font-size: 1.3em;
-    margin: 0;
-}
-
+/* 
 .web-page-content {
     font-size: 1em;
     margin: 0;
-}
+} */
 
+/* 
 .web-page-selector-container {
     display: flex;
     justify-content: center;
     height: 10vh;
     width: 100vw;
-    /* border: 1px solid black; */
 }
 
 .web-page-selector-focused {
@@ -284,15 +282,163 @@ main {
     box-sizing: border-box;
     border: 3px solid #406283;
     border-radius: 20px;
+} */
+
+.compassrose-container {
+    height: 25vw;
+    width: 40vw;
+    margin: .25vw 0;
+    background-image: url(/images/screenshots/compassRose.png);
+    background-size: 150%;
+    background-repeat: no-repeat;
 }
 
+.compassrose {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vw;
+    width: 40vw;
+    text-decoration: none;
+}
+
+.compassrose-title {
+    font-weight: bold;
+    font-size: 1.3em;
+    margin: 0;
+    color: white;
+}
+
+.reactFinalProject-container {
+    height: 25vw;
+    width: 59vw;
+    margin: .25vw 0;
+    background-image: url(/images/screenshots/reactFinalProject.png);
+    background-size: 150%;
+    background-repeat: no-repeat;
+}
+
+.reactFinalProject {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vw;
+    width: 59vw;
+    text-decoration: none;
+}
+
+.reactFinalProject-title {
+    font-weight: bold;
+    font-size: 1.3em;
+    margin: 0;
+    color: white;
+}
+
+.pythonFlashCard-container {
+    height: 25vw;
+    width: 59vw;
+    margin: .25vw 0;
+    background-image: url(/images/screenshots/pythonFlashCard.png);
+    background-size: 150%;
+    background-repeat: no-repeat;
+}
+
+.pythonFlashCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vw;
+    width: 59vw;
+    text-decoration: none;
+}
+
+.pythonFlashCard-title {
+    font-weight: bold;
+    font-size: 1.3em;
+    margin: 0;
+    color: white;
+}
+
+.uiUxCollaboration-container {
+    height: 25vw;
+    width: 40vw;
+    margin: .25vw 0;
+    background-image: url(/images/screenshots/uiUxCollaboration.png);
+    background-size: 150%;
+    background-repeat: no-repeat;
+}
+
+.uiUxCollaboration {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vw;
+    width: 40vw;
+    text-decoration: none;
+}
+
+.uiUxCollaboration-title {
+    font-weight: bold;
+    font-size: 1.3em;
+    margin: 0;
+    color: white;
+}
+
+.secondPersonalWebsite-container {
+    height: 25vw;
+    width: 40vw;
+    margin: .25vw 0;
+    background-image: url(/images/screenshots/2ndPersonalWebsite.png);
+    background-size: 150%;
+    background-repeat: no-repeat;
+}
+
+.secondPersonalWebsite {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vw;
+    width: 40vw;
+    text-decoration: none;
+}
+
+.secondPersonalWebsite-title {
+    font-weight: bold;
+    font-size: 1.3em;
+    margin: 0;
+    color: white;
+}
+
+.reactPersonalSite-container {
+    height: 25vw;
+    width: 59vw;
+    margin: .25vw 0;
+    background-image: url(/images/screenshots/reactPersonalSite.png);
+    background-size: 150%;
+    background-repeat: no-repeat;
+}
+
+.reactPersonalSite {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vw;
+    width: 59vw;
+    text-decoration: none;
+}
+
+.reactPersonalSite-title {
+    font-weight: bold;
+    font-size: 1.3em;
+    margin: 0;
+    color: white;
+}
 
 /* ___________________ Product Design ___________________ */
 
 .product {
     display: flex;
     flex-direction: column;
-    height: 100vh;
     width: 100vw;
 }
 
@@ -300,23 +446,173 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 5vh;
+    height: 60vh;
     width: 100vw;
-    background-color: #62aeb5;
+    background-color: rgba(255, 255, 255, .9);
 }
 
 .product-title {
     font-size: 2em;
-    color: white;
+    color: #62aeb5;
     font-family: 'Big Shoulders Text', cursive;
 }
 
 .product-bottom {
-    height: 95vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     width: 100vw;
-    background-color: white;
-    overflow: hidden;
-    overflow-y: scroll;
+    margin: 0;
+}
+
+.compassrose-container {
+    height: 25vw;
+    width: 40vw;
+    margin: .25vw 0;
+    background-image: url(/images/screenshots/compassRose.png);
+    background-size: 150%;
+    background-repeat: no-repeat;
+}
+
+.compassrose {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vw;
+    width: 40vw;
+    text-decoration: none;
+}
+
+.compassrose-title {
+    font-weight: bold;
+    font-size: 1.3em;
+    margin: 0;
+    color: white;
+}
+
+.reactFinalProject-container {
+    height: 25vw;
+    width: 59vw;
+    margin: .25vw 0;
+    background-image: url(/images/screenshots/reactFinalProject.png);
+    background-size: 150%;
+    background-repeat: no-repeat;
+}
+
+.reactFinalProject {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vw;
+    width: 59vw;
+    text-decoration: none;
+}
+
+.reactFinalProject-title {
+    font-weight: bold;
+    font-size: 1.3em;
+    margin: 0;
+    color: white;
+}
+
+.pythonFlashCard-container {
+    height: 25vw;
+    width: 59vw;
+    margin: .25vw 0;
+    background-image: url(/images/screenshots/pythonFlashCard.png);
+    background-size: 150%;
+    background-repeat: no-repeat;
+}
+
+.pythonFlashCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vw;
+    width: 59vw;
+    text-decoration: none;
+}
+
+.pythonFlashCard-title {
+    font-weight: bold;
+    font-size: 1.3em;
+    margin: 0;
+    color: white;
+}
+
+.uiUxCollaboration-container {
+    height: 25vw;
+    width: 40vw;
+    margin: .25vw 0;
+    background-image: url(/images/screenshots/uiUxCollaboration.png);
+    background-size: 150%;
+    background-repeat: no-repeat;
+}
+
+.uiUxCollaboration {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vw;
+    width: 40vw;
+    text-decoration: none;
+}
+
+.uiUxCollaboration-title {
+    font-weight: bold;
+    font-size: 1.3em;
+    margin: 0;
+    color: white;
+}
+
+.secondPersonalWebsite-container {
+    height: 25vw;
+    width: 40vw;
+    margin: .25vw 0;
+    background-image: url(/images/screenshots/2ndPersonalWebsite.png);
+    background-size: 150%;
+    background-repeat: no-repeat;
+}
+
+.secondPersonalWebsite {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vw;
+    width: 40vw;
+    text-decoration: none;
+}
+
+.secondPersonalWebsite-title {
+    font-weight: bold;
+    font-size: 1.3em;
+    margin: 0;
+    color: white;
+}
+
+.reactPersonalSite-container {
+    height: 25vw;
+    width: 59vw;
+    margin: .25vw 0;
+    background-image: url(/images/screenshots/reactPersonalSite.png);
+    background-size: 150%;
+    background-repeat: no-repeat;
+}
+
+.reactPersonalSite {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vw;
+    width: 59vw;
+    text-decoration: none;
+}
+
+.reactPersonalSite-title {
+    font-weight: bold;
+    font-size: 1.3em;
+    margin: 0;
+    color: white;
 }
 
 /* ___________________ Graphic Design ___________________ */
@@ -324,7 +620,6 @@ main {
 .graphic {
     display: flex;
     flex-direction: column;
-    height: 100vh;
     width: 100vw;
 }
 
@@ -332,24 +627,28 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 5vh;
+    height: 60vh;
     width: 100vw;
-    background-color: #406283;;
+    background-color: rgba(255, 255, 255, .9);
 }
 
 .graphic-title {
     font-size: 2em;
-    color: white;
+    color: #406283;
     font-family: 'Big Shoulders Text', cursive;
 }
 
 .graphic-bottom {
-    height: 100vw;
-    background-color: white;
-    overflow: hidden;
-    overflow-x: scroll;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100vw;
+    margin: 0;
 }
 
+
+
+/* ____________ Footer ____________ */
 
 footer {
     display: flex;
