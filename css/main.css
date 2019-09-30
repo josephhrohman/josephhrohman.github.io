@@ -190,30 +190,31 @@ main {
     width: 100vw;
 }
 
+.web-gallery {
+    text-decoration: none;
+}
+
 .web-top {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 60vh;
+    height: 30vh;
     width: 100vw;
     background-color: rgba(255, 255, 255, .9);
 }
 
 .web-title {
-    font-size: 2em;
+    font-size: 2.5em;
     color: #5c8ec0;
     font-family: 'Big Shoulders Text', cursive;
 }
 
 .web-bottom {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    height: 85vh;
     width: 100vw;
-    margin: 0;
+    background-color: white;
 }
 
-/* 
 .web-page-container {
     height: 85vh;
     width: 100vw;
@@ -229,41 +230,38 @@ main {
 
 .web-page-unfocused {
     display: none;
-} */
+} 
 
-/* 
 .web-page-box {
     display: flex;
     flex-direction: column;
     align-items: center;
     height: 70vh;
     width: 33vw;
-} */
+}
 
-/* .web-page-img-container {
+.web-page-img-container {
     height: 25vw;
     width: 33vw;
     overflow: hidden;
-} */
+}
 
-/* 
 .web-page-img {
-    height: auto;
-    width: 33vw;
-} */
+    height: 100%;
+    width: auto;
+}
 
-/* 
 .web-page-content {
     font-size: 1em;
     margin: 0;
-} */
+}
 
-/* 
 .web-page-selector-container {
     display: flex;
     justify-content: center;
     height: 10vh;
     width: 100vw;
+    background-color: white;
 }
 
 .web-page-selector-focused {
@@ -282,182 +280,10 @@ main {
     box-sizing: border-box;
     border: 3px solid #406283;
     border-radius: 20px;
-} */
-
-.compassrose-container {
-    height: 25vw;
-    width: 40vw;
-    margin: .25vw 0;
-    background-image: url(/images/screenshots/compassRose.png);
-    background-size: 150%;
-    background-repeat: no-repeat;
 }
 
-.compassrose {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 25vw;
-    width: 40vw;
-    text-decoration: none;
-}
-
-.compassrose-title {
-    font-weight: bold;
-    font-size: 1.3em;
-    margin: 0;
-    color: white;
-}
-
-.reactFinalProject-container {
-    height: 25vw;
-    width: 59vw;
-    margin: .25vw 0;
-    background-image: url(/images/screenshots/reactFinalProject.png);
-    background-size: 150%;
-    background-repeat: no-repeat;
-}
-
-.reactFinalProject {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 25vw;
-    width: 59vw;
-    text-decoration: none;
-}
-
-.reactFinalProject-title {
-    font-weight: bold;
-    font-size: 1.3em;
-    margin: 0;
-    color: white;
-}
-
-.pythonFlashCard-container {
-    height: 25vw;
-    width: 59vw;
-    margin: .25vw 0;
-    background-image: url(/images/screenshots/pythonFlashCard.png);
-    background-size: 150%;
-    background-repeat: no-repeat;
-}
-
-.pythonFlashCard {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 25vw;
-    width: 59vw;
-    text-decoration: none;
-}
-
-.pythonFlashCard-title {
-    font-weight: bold;
-    font-size: 1.3em;
-    margin: 0;
-    color: white;
-}
-
-.uiUxCollaboration-container {
-    height: 25vw;
-    width: 40vw;
-    margin: .25vw 0;
-    background-image: url(/images/screenshots/uiUxCollaboration.png);
-    background-size: 150%;
-    background-repeat: no-repeat;
-}
-
-.uiUxCollaboration {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 25vw;
-    width: 40vw;
-    text-decoration: none;
-}
-
-.uiUxCollaboration-title {
-    font-weight: bold;
-    font-size: 1.3em;
-    margin: 0;
-    color: white;
-}
-
-.secondPersonalWebsite-container {
-    height: 25vw;
-    width: 40vw;
-    margin: .25vw 0;
-    background-image: url(/images/screenshots/2ndPersonalWebsite.png);
-    background-size: 150%;
-    background-repeat: no-repeat;
-}
-
-.secondPersonalWebsite {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 25vw;
-    width: 40vw;
-    text-decoration: none;
-}
-
-.secondPersonalWebsite-title {
-    font-weight: bold;
-    font-size: 1.3em;
-    margin: 0;
-    color: white;
-}
-
-.reactPersonalSite-container {
-    height: 25vw;
-    width: 59vw;
-    margin: .25vw 0;
-    background-image: url(/images/screenshots/reactPersonalSite.png);
-    background-size: 150%;
-    background-repeat: no-repeat;
-}
-
-.reactPersonalSite {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 25vw;
-    width: 59vw;
-    text-decoration: none;
-}
-
-.reactPersonalSite-title {
-    font-weight: bold;
-    font-size: 1.3em;
-    margin: 0;
-    color: white;
-}
-
-/* ___________________ Product Design ___________________ */
-
-.product {
-    display: flex;
-    flex-direction: column;
-    width: 100vw;
-}
-
-.product-top {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 60vh;
-    width: 100vw;
-    background-color: rgba(255, 255, 255, .9);
-}
-
-.product-title {
-    font-size: 2em;
-    color: #62aeb5;
-    font-family: 'Big Shoulders Text', cursive;
-}
-
-.product-bottom {
+/* 
+.web-bottom {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -609,6 +435,120 @@ main {
 }
 
 .reactPersonalSite-title {
+    font-weight: bold;
+    font-size: 1.3em;
+    margin: 0;
+    color: white;
+} */
+
+/* ___________________ Product Design ___________________ */
+
+.product {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+
+.product-gallery {
+    text-decoration: none;
+}
+
+.product-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    width: 100vw;
+    background-color: rgba(255, 255, 255, .9);
+}
+
+.product-header {
+    font-size: 2.5em;
+    color: #62aeb5;
+    font-family: 'Big Shoulders Text', cursive;
+}
+
+.product-bottom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100vw;
+    margin: 0;
+}
+
+.first-container {
+    height: 25vw;
+    width: 40vw;
+    margin: .25vw 0;
+    background-image: url(/images/projects/img1.jpg);
+    background-size: 150%;
+    background-repeat: no-repeat;
+}
+
+.second-container {
+    height: 25vw;
+    width: 59vw;
+    margin: .25vw 0;
+    background-image: url(/images/projects/img2.jpg);
+    background-size: 150%;
+    background-repeat: no-repeat;
+}
+
+.third-container {
+    height: 25vw;
+    width: 59vw;
+    margin: .25vw 0;
+    background-image: url(/images/projects/img3.jpg);
+    background-size: 150%;
+    background-repeat: no-repeat;
+}
+
+.fourth-container {
+    height: 25vw;
+    width: 40vw;
+    margin: .25vw 0;
+    background-image: url(/images/projects/img4.jpg);
+    background-size: 150%;
+    background-repeat: no-repeat;
+}
+
+.fifth-container {
+    height: 25vw;
+    width: 40vw;
+    margin: .25vw 0;
+    background-image: url(/images/projects/img5.jpg);
+    background-size: 150%;
+    background-repeat: no-repeat;
+}
+
+.sixth-container {
+    height: 25vw;
+    width: 59vw;
+    margin: .25vw 0;
+    background-image: url(/images/projects/img6.jpg);
+    background-size: 150%;
+    background-repeat: no-repeat;
+}
+
+.narrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vw;
+    width: 40vw;
+    text-decoration: none;
+}
+
+.wide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vw;
+    width: 59vw;
+    text-decoration: none;
+}
+
+.product-title {
     font-weight: bold;
     font-size: 1.3em;
     margin: 0;
@@ -623,17 +563,21 @@ main {
     width: 100vw;
 }
 
+.graphic-gallery {
+    text-decoration: none;
+}
+
 .graphic-top {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 60vh;
+    height: 30vh;
     width: 100vw;
     background-color: rgba(255, 255, 255, .9);
 }
 
 .graphic-title {
-    font-size: 2em;
+    font-size: 2.5em;
     color: #406283;
     font-family: 'Big Shoulders Text', cursive;
 }
@@ -646,7 +590,10 @@ main {
     margin: 0;
 }
 
-
+.graphic-img {
+    height: 100px;
+    width: 100px;
+}
 
 /* ____________ Footer ____________ */
 
