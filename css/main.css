@@ -11,38 +11,133 @@ Celeste: #5fb2a6
 
 * {
   font-family: 'Oxygen', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 body {
     margin: 0;
     padding: 0;
-    background-color: #1e2328;
-}
-
-nav {
-    height: 10vh;
-    width: 100vw;
-    margin: 0;
-    background-color: #32526d;
-}
-
-.nav-name {
-    font-size: 1.2em;
-    color: white;
-    font-family: 'Big Shoulders Text', cursive;
-}
-
-.nav-element {
-    font-size: 1.2em;
-    color: white;
-    font-family: 'Big Shoulders Text', cursive;
-    text-decoration: none;
+    background-color: #32536e;
 }
 
 main {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+nav {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+}
+
+.nav-about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    width: 150px;
+    height: 100px;
+    transform: skew(340deg);
+    background: #f7f7f7;
+}
+
+.nav-about-text {
+    font-size: 1.8em;
+    color: black;
+    transform: skew(20deg);
+}
+
+.nav-web {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    width: 150px;
+    height: 100px;
+    transform: skew(340deg);
+    background: #1e2328;
+}
+
+.nav-web-text {
+    font-size: 1.8em;
+    color: white;
+    transform: skew(20deg);
+}
+
+.nav-product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    width: 150px;
+    height: 100px;
+    transform: skew(340deg);
+    background: #5eb2a6;
+}
+
+.nav-product-text {
+    font-size: 1.8em;
+    color: black;
+    transform: skew(20deg);
+}
+
+.nav-graphic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    width: 150px;
+    height: 100px;
+    transform: skew(340deg);
+    background: #8897a3;
+}
+
+.nav-graphic-text {
+    font-size: 1.8em;
+    color: black;
+    transform: skew(20deg);
+}
+
+.header-about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    width: 90vw;
+    background-color: #f6f7f9;
+    color: #5eb2a6;
+    font-size: 2em;
+}
+
+.header-web {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    background-color: #1e2328;
+}
+
+.header-product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    background-color: #5eb2a6;
+}
+
+.header-graphic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    background-color: #8897a3;
+}
+
+.header-hidden {
+    display: none;
 }
 
 /* ____________________________________ Index Page ____________________________________ */
@@ -56,6 +151,7 @@ main {
     display: flex;
     height: 100vh;
     width: 90vw;
+    background-color: #f6f7f9;
 }
 
 .about-bottom {
@@ -65,7 +161,7 @@ main {
     align-items: center;
     height: 95vh;
     width: 90vw;
-    background-color: white;
+    background-color: #f6f7f9;
 }
 
 .about-left {
@@ -94,7 +190,7 @@ main {
     width: 45vw;
     padding: 2.5vw;
     box-sizing: border-box;
-    background-color: white;
+    background-color: #f6f7f9;
 }
 
 .about-content-title {
@@ -129,372 +225,19 @@ main {
 .web {
     display: flex;
     flex-direction: column;
+    height: 100vh;
     width: 90vw;
+    background-color: #1e2428;
 }
-
-.web-gallery {
-    text-decoration: none;
-}
-
-.web-top {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 30vh;
-    width: 90vw;
-    background-color: rgba(255, 255, 255, .9);
-}
-
-.web-title {
-    font-size: 2.5em;
-    color: #5c8ec0;
-    font-family: 'Big Shoulders Text', cursive;
-}
-
-.web-bottom {
-    height: 85vh;
-    width: 90vw;
-    background-color: white;
-}
-
-.web-page-container {
-    height: 85vh;
-    width: 90vw;
-}
-
-.web-page-focused {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 85vh;
-    width: 90vw;
-}
-
-.web-page-unfocused {
-    display: none;
-} 
-
-.web-page-box {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 70vh;
-    width: 30vw;
-}
-
-.web-page-img-container {
-    height: 25vw;
-    width: 30vw;
-    overflow: hidden;
-}
-
-.web-page-img {
-    height: 100%;
-    width: auto;
-}
-
-.web-page-content {
-    font-size: 1em;
-    margin: 0;
-}
-
-.web-page-selector-container {
-    display: flex;
-    justify-content: center;
-    height: 10vh;
-    width: 90vw;
-    background-color: white;
-}
-
-.web-page-selector-focused {
-    height: 20px;
-    width: 20px;
-    margin: 0 10px;
-    box-sizing: border-box;
-    background-color: #406283;
-    border-radius: 20px;
-}
-
-.web-page-selector-unfocused{
-    height: 20px;
-    width: 20px;
-    margin: 0 10px;
-    box-sizing: border-box;
-    border: 3px solid #406283;
-    border-radius: 20px;
-}
-
-/* 
-.web-bottom {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    width: 90vw;
-    margin: 0;
-}
-
-.compassrose-container {
-    height: 25vw;
-    width: 40vw;
-    margin: .25vw 0;
-    background-image: url(/images/screenshots/compassRose.png);
-    background-size: 150%;
-    background-repeat: no-repeat;
-}
-
-.compassrose {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 25vw;
-    width: 40vw;
-    text-decoration: none;
-}
-
-.compassrose-title {
-    font-weight: bold;
-    font-size: 1.3em;
-    margin: 0;
-    color: white;
-}
-
-.reactFinalProject-container {
-    height: 25vw;
-    width: 59vw;
-    margin: .25vw 0;
-    background-image: url(/images/screenshots/reactFinalProject.png);
-    background-size: 150%;
-    background-repeat: no-repeat;
-}
-
-.reactFinalProject {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 25vw;
-    width: 59vw;
-    text-decoration: none;
-}
-
-.reactFinalProject-title {
-    font-weight: bold;
-    font-size: 1.3em;
-    margin: 0;
-    color: white;
-}
-
-.pythonFlashCard-container {
-    height: 25vw;
-    width: 59vw;
-    margin: .25vw 0;
-    background-image: url(/images/screenshots/pythonFlashCard.png);
-    background-size: 150%;
-    background-repeat: no-repeat;
-}
-
-.pythonFlashCard {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 25vw;
-    width: 59vw;
-    text-decoration: none;
-}
-
-.pythonFlashCard-title {
-    font-weight: bold;
-    font-size: 1.3em;
-    margin: 0;
-    color: white;
-}
-
-.uiUxCollaboration-container {
-    height: 25vw;
-    width: 40vw;
-    margin: .25vw 0;
-    background-image: url(/images/screenshots/uiUxCollaboration.png);
-    background-size: 150%;
-    background-repeat: no-repeat;
-}
-
-.uiUxCollaboration {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 25vw;
-    width: 40vw;
-    text-decoration: none;
-}
-
-.uiUxCollaboration-title {
-    font-weight: bold;
-    font-size: 1.3em;
-    margin: 0;
-    color: white;
-}
-
-.secondPersonalWebsite-container {
-    height: 25vw;
-    width: 40vw;
-    margin: .25vw 0;
-    background-image: url(/images/screenshots/2ndPersonalWebsite.png);
-    background-size: 150%;
-    background-repeat: no-repeat;
-}
-
-.secondPersonalWebsite {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 25vw;
-    width: 40vw;
-    text-decoration: none;
-}
-
-.secondPersonalWebsite-title {
-    font-weight: bold;
-    font-size: 1.3em;
-    margin: 0;
-    color: white;
-}
-
-.reactPersonalSite-container {
-    height: 25vw;
-    width: 59vw;
-    margin: .25vw 0;
-    background-image: url(/images/screenshots/reactPersonalSite.png);
-    background-size: 150%;
-    background-repeat: no-repeat;
-}
-
-.reactPersonalSite {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 25vw;
-    width: 59vw;
-    text-decoration: none;
-}
-
-.reactPersonalSite-title {
-    font-weight: bold;
-    font-size: 1.3em;
-    margin: 0;
-    color: white;
-} */
 
 /* ___________________ Product Design ___________________ */
 
 .product {
     display: flex;
     flex-direction: column;
+    height: 100vh;
     width: 90vw;
-}
-
-.product-gallery {
-    text-decoration: none;
-}
-
-.product-top {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 30vh;
-    width: 90vw;
-    background-color: rgba(255, 255, 255, .9);
-}
-
-.product-header {
-    font-size: 2.5em;
-    color: #62aeb5;
-    font-family: 'Big Shoulders Text', cursive;
-}
-
-.product-bottom {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    width: 90vw;
-    margin: 0;
-}
-
-.first-container {
-    height: 25vw;
-    width: 35vw;
-    margin: .25vw 0;
-    background-image: url(/images/projects/img1.jpg);
-    background-size: 150%;
-    background-repeat: no-repeat;
-}
-
-.second-container {
-    height: 25vw;
-    width: 54vw;
-    margin: .25vw 0;
-    background-image: url(/images/projects/img2.jpg);
-    background-size: 150%;
-    background-repeat: no-repeat;
-}
-
-.third-container {
-    height: 25vw;
-    width: 54vw;
-    margin: .25vw 0;
-    background-image: url(/images/projects/img3.jpg);
-    background-size: 150%;
-    background-repeat: no-repeat;
-}
-
-.fourth-container {
-    height: 25vw;
-    width: 35vw;
-    margin: .25vw 0;
-    background-image: url(/images/projects/img4.jpg);
-    background-size: 150%;
-    background-repeat: no-repeat;
-}
-
-.fifth-container {
-    height: 25vw;
-    width: 35vw;
-    margin: .25vw 0;
-    background-image: url(/images/projects/img5.jpg);
-    background-size: 150%;
-    background-repeat: no-repeat;
-}
-
-.sixth-container {
-    height: 25vw;
-    width: 54vw;
-    margin: .25vw 0;
-    background-image: url(/images/projects/img6.jpg);
-    background-size: 150%;
-    background-repeat: no-repeat;
-}
-
-.narrow {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 25vw;
-    width: 35vw;
-    text-decoration: none;
-}
-
-.wide {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 25vw;
-    width: 54vw;
-    text-decoration: none;
-}
-
-.product-title {
-    font-weight: bold;
-    font-size: 1.3em;
-    margin: 0;
-    color: white;
+    background-color: #5eb2a6;
 }
 
 /* ___________________ Graphic Design ___________________ */
@@ -502,46 +245,9 @@ main {
 .graphic {
     display: flex;
     flex-direction: column;
+    height: 100vh;
     width: 90vw;
-}
-
-.graphic-gallery {
-    text-decoration: none;
-}
-
-.graphic-top {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 30vh;
-    width: 90vw;
-    background-color: rgba(255, 255, 255, .9);
-}
-
-.graphic-title {
-    font-size: 2.5em;
-    color: #406283;
-    font-family: 'Big Shoulders Text', cursive;
-}
-
-.graphic-bottom {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    width: 90vw;
-    margin: 0;
-    background-color: white;
-}
-
-.graphic-link {
-    height: 25vw;
-    width: 25vw;
-    margin-top: 1vw;
-    overflow: hidden;
-}
-
-.graphic-img {
-    height: 100%;
+    background-color: #8897a3;
 }
 
 /* ____________ Footer ____________ */
@@ -557,27 +263,6 @@ footer {
     height: 50px;
     width: 50px;
     margin: 5px;
-}
-
-/* ____________ Web Developement Article ____________ */
-
-.back {
-    height: 100vh;
-    width: 2vw;
-    transition: 0.2s;
-    background-color: #406283;
-}
-
-.back:hover {
-    height: 100vh;
-    width: 2vw;
-    background-color: #5c8ec0;
-}
-
-.back-tab {
-    transform: rotate(270deg);
-    color: white;
-    font-weight: bold;
 }
 
 /* ____________ Index Page Mobile ____________ */
