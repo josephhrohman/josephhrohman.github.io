@@ -18,7 +18,7 @@ Celeste: #5fb2a6
 body {
     margin: 0;
     padding: 0;
-    background-color: #32536e;
+    background-color: #f6f7f9;
 }
 
 main {
@@ -27,117 +27,45 @@ main {
     align-items: center;
 }
 
-nav {
+header {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
     width: 100vw;
-    justify-content: center;
 }
 
-.nav-about {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-    width: 150px;
-    height: 100px;
-    transform: skew(340deg);
-    background: #f7f7f7;
-}
-
-.nav-about-text {
-    font-size: 1.8em;
-    color: black;
-    transform: skew(20deg);
-}
-
-.nav-web {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-    width: 150px;
-    height: 100px;
-    transform: skew(340deg);
-    background: #1e2328;
-}
-
-.nav-web-text {
-    font-size: 1.8em;
-    color: white;
-    transform: skew(20deg);
-}
-
-.nav-product {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-    width: 150px;
-    height: 100px;
-    transform: skew(340deg);
-    background: #5eb2a6;
-}
-
-.nav-product-text {
-    font-size: 1.8em;
-    color: black;
-    transform: skew(20deg);
-}
-
-.nav-graphic {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-    width: 150px;
-    height: 100px;
-    transform: skew(340deg);
-    background: #8897a3;
-}
-
-.nav-graphic-text {
-    font-size: 1.8em;
-    color: black;
-    transform: skew(20deg);
-}
-
-.header-about {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 30vh;
+.header-name {
     width: 90vw;
-    background-color: #f6f7f9;
+    margin: 0;
+    font-size: 1.2em;
+    text-align: right;
+    color: #1e2428;
+}
+
+.header-line {
+    width: 90vw;
+    margin: 5px 0;
+    color: #1e2428;
+}
+
+.header-links {
+    display: flex;
+    width: 90vw;
+    margin: 0;
+}
+
+.link {
+    margin-right: 10px;
+    font-size: 1.2em;
+    font-weight: bolder;
+    color: #1e2428;
+}
+
+.link:hover {
+    cursor: pointer;
     color: #5eb2a6;
-    font-size: 2em;
-}
-
-.header-web {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 30vh;
-    background-color: #1e2328;
-}
-
-.header-product {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 30vh;
-    background-color: #5eb2a6;
-}
-
-.header-graphic {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 30vh;
-    background-color: #8897a3;
-}
-
-.header-hidden {
-    display: none;
 }
 
 /* ____________________________________ Index Page ____________________________________ */
@@ -149,76 +77,173 @@ nav {
 /* ___________________ About ___________________ */
 .about {
     display: flex;
-    height: 100vh;
+    height: 400vh;
     width: 90vw;
-    background-color: #f6f7f9;
 }
 
-.about-bottom {
+.about-section1 {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+}
+
+.about-img1 {
+    position: absolute;
+    z-index: -1;
+    height: 60vw;
+    top: 15vh;
+    right: 10vw;
+    opacity: .5;
+}
+
+.about-who {
+    font-size: 5em;
+    margin: 7vh 0 0 35vw;
+    font-weight: bolder;
+}
+
+.about-text1 {
+    margin: 0 0 0 5vw;
+    font-size: 1.65em;
+}
+
+.about-section2 {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 130vh;
+    left: 10vw;
+}
+
+.green-box {
+    position: absolute;
+    border: 2px solid #5eb2a6;
+    height: 55vh;
+    width: 30vw;
+}
+
+.about-how {
+    font-size: 5em;
+    margin-top: 5vh;
+    margin-left: 25.5vw;
+    font-weight: bolder;
+}
+
+.about-text2 {
+    margin: 5vh 0 0 20vw;
+    font-size: 1.65em;
+}
+
+.about-text3 {
+    margin: 5vh 0 0 20vw;
+    font-size: 1.65em;
+}
+
+.about-text4 {
+    margin: 5vh 0 0 20vw;
+    font-size: 1.65em;
+}
+
+.about-section3 {
+    display: flex;
+    position: absolute;
+    top: 200vh;
+    left: 10vw;
+}
+
+.about-section3-left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
     height: 95vh;
-    width: 90vw;
-    background-color: #f6f7f9;
+    border-right: 1px solid #5eb2a6;
 }
 
-.about-left {
+.about-skillset {
+    text-align: right;
+    padding-right: 1.5vw;
+    font-size: 5em;
+    font-weight: 100;
+}
+
+.about-text5{
+    position: absolute;
+    top: 17vh;
+    text-align: right;
+    padding-right: 1.5vw;
+    font-size: 1.65em;
+}
+
+.about-text6{
+    position: absolute;
+    top: 37vh;
+    text-align: right;
+    padding-right: 1.5vw;
+    font-size: 1.65em;
+}
+
+.about-text7{
+    position: absolute;
+    top: 57vh;
+    text-align: right;
+    padding-right: 1.5vw;
+    font-size: 1.65em;
+}
+
+.about-text8{
+    position: absolute;
+    top: 77vh;
+    text-align: right;
+    padding-right: 1.5vw;
+    font-size: 1.65em;
+}
+
+.about-section3-right{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    width: 45vw;
-    background-image: url(/images/IMG_6062.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    overflow: hidden;
+    align-items: flex-start;
+    height: 95vh;
+    border-left: 1px solid #5eb2a6;
 }
 
-.about-img {
-    width: 20vw;
-    margin: 10px;
+.about-fascinations {
+    font-size: 5em;
+    padding-left: 1.5vw;
+    font-weight: bolder;
 }
 
-.about-right {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 45vw;
-    padding: 2.5vw;
-    box-sizing: border-box;
-    background-color: #f6f7f9;
+.about-text9 {
+    position: absolute;
+    top: 12vh;
+    text-align: left;
+    padding-left: 1.5vw;
+    font-size: 1.65em;
 }
 
-.about-content-title {
-    font-size: 1.6em;
-    color: black;
-    margin: 0 0 10px 0;
-    padding: 0;
-    font-weight: bold;
+.about-text10 {
+    position: absolute;
+    top: 32vh;
+    text-align: left;
+    padding-left: 1.5vw;
+    font-size: 1.65em;
 }
 
-.about-content {
-    font-size: 1em;
-    color: black;
-    margin: 5px 0;
-    padding: 0;
+.about-text11 {
+    position: absolute;
+    top: 52vh;
+    text-align: left;
+    padding-left: 1.5vw;
+    font-size: 1.65em;
 }
 
-.resume-link {
-    height: 50px;
-    width: 50px;
-    margin: 10px 0;
+.about-text12 {
+    position: absolute;
+    top: 72vh;
+    text-align: left;
+    padding-left: 1.5vw;
+    font-size: 1.65em;
 }
 
-.cv-icon {
-    height: 50px;
-    width: 50px;
-    margin: 0;
-}
+
 
 /* ___________________ Web Developement ___________________ */
 
