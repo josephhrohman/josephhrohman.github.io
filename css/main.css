@@ -74,6 +74,65 @@ header {
     display: none;
 }
 
+/* ___________________ Update Modal ___________________ */
+
+.update-on-load {
+    position: absolute;
+    top: 10vh;
+    right: -30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 15vw;
+    width: 30vw;
+    padding: 2vw;
+    background-color: #5eb2a6;
+    border-radius: 2.5vh;
+    animation: popOutAnimation 2.5s ease-in-out;
+}
+
+@keyframes popOutAnimation{
+    0%, 100% {
+        right: -30vw;
+    }
+    15%, 85% {
+        right: 35vw;
+    }
+}
+
+.update-button-on {
+    position: absolute;
+    top: -1vw;
+    left: 1vw;
+    font-size: 5vw;
+    font-weight: bolder;
+    color: white;
+}
+
+.update-button-on:hover {
+    color: #f9c06e;
+}
+
+.update-button-off {
+    display: none;
+}
+
+.blurb {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 2em;
+    color: white;
+}
+
+.blurb-link {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 3em;
+    text-decoration: none;
+    color: #f9c06e;
+}
+
 /* ___________________ About ___________________ */
 .about {
     display: flex;
@@ -117,29 +176,29 @@ header {
 .green-box {
     position: absolute;
     border: 2px solid #5eb2a6;
-    height: 55vh;
-    width: 30vw;
+    height: 60vh;
+    width: 45vw;
 }
 
 .about-how {
     font-size: 5em;
     margin-top: 5vh;
-    margin-left: 25.5vw;
+    margin-left: 40.5vw;
     font-weight: bolder;
 }
 
 .about-text2 {
-    margin: 5vh 0 0 20vw;
+    margin: 5vh 0 0 27vw;
     font-size: 1.65em;
 }
 
 .about-text3 {
-    margin: 5vh 0 0 20vw;
+    margin: 5vh 0 0 27vw;
     font-size: 1.65em;
 }
 
 .about-text4 {
-    margin: 5vh 0 0 20vw;
+    margin: 5vh 0 0 27vw;
     font-size: 1.65em;
 }
 
@@ -243,6 +302,35 @@ header {
     font-size: 1.65em;
 }
 
+.about-section4 {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 310vh;
+    left: 0;
+    height: 100vh;
+    width: 80vw;
+    margin: 0 10vw;
+}
+
+.about-history {
+    position: absolute;
+    top: 21vh;
+    right: -12vw;
+    transform: rotate(270deg);
+    font-size: 5em;
+    font-weight: bolder;
+}
+
+.about-text-group-title {
+    font-size: 1.65em;
+    font-weight: bolder;
+}
+
+.about-text-group-content {
+    margin: 1vw;
+    font-size: 1em;
+}
 
 
 /* ___________________ Web Developement ___________________ */

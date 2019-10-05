@@ -44,4 +44,6 @@ window.onload = function () {
     document.getElementById('productSection').classList.remove('product');
   });
 
+  // popOutUpdate
+
 };
