@@ -90,19 +90,52 @@ nav {
     padding: 2vw;
     background-color: #5eb2a6;
     border-radius: 2.5vh;
-    animation: popOutAnimation 2.5s ease-in-out;
+    animation: popOutAnimation1 2s ease-in-out;
 }
 
-@keyframes popOutAnimation{
+@keyframes popOutAnimation1{
     0%, 100% {
         right: -30vw;
     }
     15%, 85% {
-        right: 35vw;
+        right: 0;
     }
 }
 
+.update-on {
+    position: absolute;
+    top: 10vh;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 15vw;
+    width: 30vw;
+    padding: 2vw;
+    background-color: #5eb2a6;
+    border-radius: 2.5vh;
+    transition: ease-out .5s;
+}
+
+.update-off {
+    position: absolute;
+    top: 10vh;
+    right: -30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 15vw;
+    width: 30vw;
+    padding: 2vw;
+    background-color: #5eb2a6;
+    border-radius: 2.5vh;
+    transition: ease-out .5s;
+}
+
 .update-button-on {
+    display: block;
     position: absolute;
     top: -1vw;
     left: 1vw;
@@ -113,10 +146,22 @@ nav {
 
 .update-button-on:hover {
     color: #f9c06e;
+    cursor: pointer;
 }
 
 .update-button-off {
     display: none;
+    position: absolute;
+    top: -1vw;
+    left: 1vw;
+    font-size: 5vw;
+    font-weight: bolder;
+    color: white;
+}
+
+.update-button-off:hover {
+    color: #f9c06e;
+    cursor: pointer;
 }
 
 .blurb {

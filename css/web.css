@@ -105,29 +105,192 @@ header {
     width: 90vw;
 }
 
-.img-containers {
-    z-index: 1;
+.img-container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 35vh;
     width: 35vh;
     overflow: hidden;
     margin: 5vh;
     box-shadow: 0px 0px 7px -2px #BABABA;
     border-radius: 1vh;
-    filter: brightness(0.7);
+    background-image: url('/images/screenshots/tractuPharma.png');
+    background-size: 65vh;
+    background-position: center;
     transition: transform 0.5s;
 }
-
-.img-containers:hover {
-    filter: brightness(1);
+.img-container1:hover {
     transform: scale(1.1); 
 }
 
-.web-thumbnail {
-    position: absolute;
-    top: 0;
-    left: -35%;
+.img-container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 35vh;
-    width: auto;
+    width: 35vh;
+    overflow: hidden;
+    margin: 5vh;
+    box-shadow: 0px 0px 7px -2px #BABABA;
+    border-radius: 1vh;
+    background-image: url('/images/screenshots/reactFinalProject.png');
+    background-size: 65vh;
+    background-position: center;
+    transition: transform 0.5s;
+}
+.img-container2:hover {
+    transform: scale(1.1); 
+}
+
+.img-container3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35vh;
+    width: 35vh;
+    overflow: hidden;
+    margin: 5vh;
+    box-shadow: 0px 0px 7px -2px #BABABA;
+    border-radius: 1vh;
+    background-image: url('/images/screenshots/reactPersonalSite.png');
+    background-size: 65vh;
+    background-position: center;
+    transition: transform 0.5s;
+}
+.img-container3:hover {
+    transform: scale(1.1); 
+}
+
+.img-container4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35vh;
+    width: 35vh;
+    overflow: hidden;
+    margin: 5vh;
+    box-shadow: 0px 0px 7px -2px #BABABA;
+    border-radius: 1vh;
+    background-image: url('/images/screenshots/compassRose.png');
+    background-size: 65vh;
+    background-position: center;
+    transition: transform 0.5s;
+}
+.img-container4:hover {
+    transform: scale(1.1); 
+}
+
+.img-container5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35vh;
+    width: 35vh;
+    overflow: hidden;
+    margin: 5vh;
+    box-shadow: 0px 0px 7px -2px #BABABA;
+    border-radius: 1vh;
+    background-image: url('/images/screenshots/portfolioSite.png');
+    background-size: 65vh;
+    background-position: center;
+    transition: transform 0.5s;
+}
+.img-container5:hover {
+    transform: scale(1.1); 
+}
+
+.img-container6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35vh;
+    width: 35vh;
+    overflow: hidden;
+    margin: 5vh;
+    box-shadow: 0px 0px 7px -2px #BABABA;
+    border-radius: 1vh;
+    background-image: url('/images/screenshots/firstPersonalWebsite.png');
+    background-size: 65vh;
+    background-position: center;
+    transition: transform 0.5s;
+}
+.img-container6:hover {
+    transform: scale(1.1); 
+}
+
+.img-container7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35vh;
+    width: 35vh;
+    overflow: hidden;
+    margin: 5vh;
+    box-shadow: 0px 0px 7px -2px #BABABA;
+    border-radius: 1vh;
+    background-image: url('/images/screenshots/2ndPersonalWebsite.png');
+    background-size: 65vh;
+    background-position: center;
+    transition: transform 0.5s;
+}
+.img-container7:hover {
+    transform: scale(1.1); 
+}
+
+.img-container8 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35vh;
+    width: 35vh;
+    overflow: hidden;
+    margin: 5vh;
+    box-shadow: 0px 0px 7px -2px #BABABA;
+    border-radius: 1vh;
+    background-image: url('/images/screenshots/pythonFlashCard.png');
+    background-size: 65vh;
+    background-position: center;
+    transition: transform 0.5s;
+}
+.img-container8:hover {
+    transform: scale(1.1); 
+}
+
+.img-container9 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35vh;
+    width: 35vh;
+    overflow: hidden;
+    margin: 5vh;
+    box-shadow: 0px 0px 7px -2px #BABABA;
+    border-radius: 1vh;
+    background-image: url('/images/screenshots/uiUxCollaboration.png');
+    background-size: 65vh;
+    background-position: center;
+    transition: transform 0.5s;
+}
+.img-container9:hover {
+    transform: scale(1.1); 
+}
+
+.img-title {
+    opacity: 0;
+    padding: 17.5vh;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bolder;
+    color: white;
+}
+
+.img-title:hover {
+    opacity: 100;
+    font-size: 2em;
+    font-weight: bolder;
+    color: white;
+    background-color: rgba(30, 36, 40, 0.5);
 }
 
 /* ____________ Footer ____________ */
