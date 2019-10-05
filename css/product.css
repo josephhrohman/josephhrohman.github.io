@@ -1,0 +1,459 @@
+/* ____________ All Pages ____________ */
+
+/* Style Guide
+Colors:
+Darkest: #1e2328
+Blue: #32526d
+Grey: #8997a3
+White: #f6f7f9
+Celeste: #5fb2a6
+ */
+
+* {
+  font-family: 'Oxygen', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f6f7f9;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80vh;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    width: 100vw;
+}
+
+.header-name {
+    width: 90vw;
+    margin: 0;
+    font-size: 1.2em;
+    text-align: right;
+    color: #1e2428;
+}
+
+.header-line {
+    width: 90vw;
+    margin: 5px 0;
+    color: #1e2428;
+}
+
+.header-links {
+    display: flex;
+    width: 90vw;
+    margin: 0;
+}
+
+.link {
+    margin-right: 10px;
+    font-size: 1.2em;
+    font-weight: bolder;
+    text-decoration: none;
+    color: #1e2428;
+}
+
+.link:hover {
+    cursor: pointer;
+    color: #5eb2a6;
+}
+
+/* ____________________________________ Index Page ____________________________________ */
+
+.section-none {
+    display: none;
+}
+
+/* ___________________ Update Modal ___________________ */
+
+.update-on-load {
+    position: absolute;
+    top: 10vh;
+    right: -30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 15vw;
+    width: 30vw;
+    padding: 2vw;
+    background-color: #5eb2a6;
+    border-radius: 2.5vh;
+    animation: popOutAnimation 2.5s ease-in-out;
+}
+
+@keyframes popOutAnimation{
+    0%, 100% {
+        right: -30vw;
+    }
+    15%, 85% {
+        right: 35vw;
+    }
+}
+
+.update-button-on {
+    position: absolute;
+    top: -1vw;
+    left: 1vw;
+    font-size: 5vw;
+    font-weight: bolder;
+    color: white;
+}
+
+.update-button-on:hover {
+    color: #f9c06e;
+}
+
+.update-button-off {
+    display: none;
+}
+
+.blurb {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 2em;
+    color: white;
+}
+
+.blurb-link {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 3em;
+    text-decoration: none;
+    color: #f9c06e;
+}
+
+/* ___________________ About ___________________ */
+.about {
+    display: flex;
+    height: 460vh;
+    width: 90vw;
+}
+
+.about-section1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-img1 {
+    position: absolute;
+    z-index: -1;
+    height: 60vw;
+    top: 15vh;
+    right: 10vw;
+    opacity: .5;
+}
+
+.about-who {
+    font-size: 5em;
+    margin: 7vh 0 0 35vw;
+    font-weight: bolder;
+}
+
+.about-text1 {
+    margin: 0 0 0 5vw;
+    font-size: 1.65em;
+}
+
+.about-section2 {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 130vh;
+    left: 10vw;
+}
+
+.green-box1 {
+    position: absolute;
+    border: 2px solid #5eb2a6;
+    height: 60vh;
+    width: 45vw;
+}
+
+.about-how {
+    font-size: 5em;
+    margin-top: 5vh;
+    margin-left: 40.5vw;
+    font-weight: bolder;
+}
+
+.about-text2 {
+    margin: 5vh 0 0 27vw;
+    font-size: 1.65em;
+}
+
+.about-text3 {
+    margin: 5vh 0 0 27vw;
+    font-size: 1.65em;
+}
+
+.about-text4 {
+    margin: 5vh 0 0 27vw;
+    font-size: 1.65em;
+}
+
+.about-section3 {
+    display: flex;
+    position: absolute;
+    top: 200vh;
+    left: 10vw;
+}
+
+.green-box2 {
+    position: absolute;
+    top: 20vh;
+    right: -45vw;
+    border: 2px solid #5eb2a6;
+    height: 55vh;
+    width: 55vh;
+}
+
+.green-box3 {
+    position: absolute;
+    top: 10vh;
+    right: -45vw;
+    border: 2px solid #5eb2a6;
+    height: 35vh;
+    width: 35vh;
+}
+
+.about-section3-left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    height: 95vh;
+    border-right: 1px solid #5eb2a6;
+}
+
+.about-skillset {
+    text-align: right;
+    padding-right: 1.5vw;
+    font-size: 5em;
+    font-weight: 100;
+}
+
+.about-text5{
+    position: absolute;
+    top: 17vh;
+    text-align: right;
+    padding-right: 1.5vw;
+    font-size: 1.65em;
+}
+
+.about-text6{
+    position: absolute;
+    top: 37vh;
+    text-align: right;
+    padding-right: 1.5vw;
+    font-size: 1.65em;
+}
+
+.about-text7{
+    position: absolute;
+    top: 57vh;
+    text-align: right;
+    padding-right: 1.5vw;
+    font-size: 1.65em;
+}
+
+.about-text8{
+    position: absolute;
+    top: 77vh;
+    text-align: right;
+    padding-right: 1.5vw;
+    font-size: 1.65em;
+}
+
+.about-section3-right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 95vh;
+    border-left: 1px solid #5eb2a6;
+}
+
+.about-fascinations {
+    font-size: 5em;
+    padding-left: 1.5vw;
+    font-weight: bolder;
+}
+
+.about-text9 {
+    position: absolute;
+    top: 12vh;
+    text-align: left;
+    padding-left: 1.5vw;
+    font-size: 1.65em;
+}
+
+.about-text10 {
+    position: absolute;
+    top: 32vh;
+    text-align: left;
+    padding-left: 1.5vw;
+    font-size: 1.65em;
+}
+
+.about-text11 {
+    position: absolute;
+    top: 52vh;
+    text-align: left;
+    padding-left: 1.5vw;
+    font-size: 1.65em;
+}
+
+.about-text12 {
+    position: absolute;
+    top: 72vh;
+    text-align: left;
+    padding-left: 1.5vw;
+    font-size: 1.65em;
+}
+
+.about-section4 {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 310vh;
+    left: 0;
+    height: 150vh;
+    width: 80vw;
+    margin: 0 10vw;
+}
+
+.green-box4 {
+    position: absolute;
+    top: -20vh;
+    left: -27vw;
+    border: 2px solid #5eb2a6;
+    height: 65vh;
+    width: 35vh;
+}
+
+.about-work {
+    position: absolute;
+    top: -10.5vh;
+    right: -1vw;
+    font-size: 5em;
+    font-weight: bolder;
+}
+
+.about-history {
+    position: absolute;
+    top: 8vh;
+    right: -11vw;
+    transform: rotate(90deg);
+    font-size: 5em;
+    font-weight: bolder;
+}
+
+.about-text-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 40vh;
+    padding: 0 1vw;
+    box-shadow: 0px 0px 7px -2px #BABABA;
+}
+
+.about-text-group-title {
+    margin-top: 2vh;
+    font-size: 1.65em;
+    font-weight: bolder;
+}
+
+.about-text-group-content {
+    margin: 1vw;
+    font-size: 1em;
+}
+
+.about-link {
+    padding: 1vh;
+    font-size: 1.65em;
+    font-weight: bolder;
+    text-decoration: none;
+    text-align: right;
+    color: #5eb2a6;
+    border: 1px solid #5eb2a6;
+    border-radius: 1vh;
+}
+
+.about-link:hover {
+    cursor: pointer;
+    color: white;
+    background-color: #5eb2a6;
+}
+
+
+/* ___________________ Web Developement ___________________ */
+
+.web {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 90vw;
+    background-color: #1e2428;
+}
+
+/* ___________________ Product Design ___________________ */
+
+.product {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 90vw;
+    background-color: #5eb2a6;
+}
+
+/* ___________________ Graphic Design ___________________ */
+
+.graphic {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 90vw;
+    background-color: #8897a3;
+}
+
+/* ____________ Footer ____________ */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+
+.icons {
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+}
+
+.footer-bottom {
+    margin-bottom: 5vh;
+}
+
+/* ____________ Index Page Mobile ____________ */
+
+
+@media only screen and (max-width: 450px) {
+    
+}
+
+
+
+
