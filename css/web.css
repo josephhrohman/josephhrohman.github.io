@@ -101,10 +101,10 @@ Celeste: #5fb2a6
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 35vh;
-        width: 35vh;
+        height: 25vw;
+        width: 25vw;
         overflow: hidden;
-        margin: 5vh;
+        margin: 1vw;
         box-shadow: 0px 0px 7px -2px #BABABA;
         border-radius: 1vh;
         background-image: url('/images/screenshots/tractuPharma.png');
@@ -120,10 +120,10 @@ Celeste: #5fb2a6
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 35vh;
-        width: 35vh;
+        height: 25vw;
+        width: 25vw;
         overflow: hidden;
-        margin: 5vh;
+        margin: 1vw;
         box-shadow: 0px 0px 7px -2px #BABABA;
         border-radius: 1vh;
         background-image: url('/images/screenshots/reactFinalProject.png');
@@ -139,10 +139,10 @@ Celeste: #5fb2a6
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 35vh;
-        width: 35vh;
+        height: 25vw;
+        width: 25vw;
         overflow: hidden;
-        margin: 5vh;
+        margin: 1vw;
         box-shadow: 0px 0px 7px -2px #BABABA;
         border-radius: 1vh;
         background-image: url('/images/screenshots/reactPersonalSite.png');
@@ -158,10 +158,10 @@ Celeste: #5fb2a6
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 35vh;
-        width: 35vh;
+        height: 25vw;
+        width: 25vw;
         overflow: hidden;
-        margin: 5vh;
+        margin: 1vw;
         box-shadow: 0px 0px 7px -2px #BABABA;
         border-radius: 1vh;
         background-image: url('/images/screenshots/compassRose.png');
@@ -177,10 +177,10 @@ Celeste: #5fb2a6
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 35vh;
-        width: 35vh;
+        height: 25vw;
+        width: 25vw;
         overflow: hidden;
-        margin: 5vh;
+        margin: 1vw;
         box-shadow: 0px 0px 7px -2px #BABABA;
         border-radius: 1vh;
         background-image: url('/images/screenshots/portfolioSite.png');
@@ -196,10 +196,10 @@ Celeste: #5fb2a6
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 35vh;
-        width: 35vh;
+        height: 25vw;
+        width: 25vw;
         overflow: hidden;
-        margin: 5vh;
+        margin: 1vw;
         box-shadow: 0px 0px 7px -2px #BABABA;
         border-radius: 1vh;
         background-image: url('/images/screenshots/firstPersonalWebsite.png');
@@ -215,10 +215,10 @@ Celeste: #5fb2a6
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 35vh;
-        width: 35vh;
+        height: 25vw;
+        width: 25vw;
         overflow: hidden;
-        margin: 5vh;
+        margin: 1vw;
         box-shadow: 0px 0px 7px -2px #BABABA;
         border-radius: 1vh;
         background-image: url('/images/screenshots/2ndPersonalWebsite.png');
@@ -234,10 +234,10 @@ Celeste: #5fb2a6
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 35vh;
-        width: 35vh;
+        height: 25vw;
+        width: 25vw;
         overflow: hidden;
-        margin: 5vh;
+        margin: 1vw;
         box-shadow: 0px 0px 7px -2px #BABABA;
         border-radius: 1vh;
         background-image: url('/images/screenshots/pythonFlashCard.png');
@@ -253,10 +253,10 @@ Celeste: #5fb2a6
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 35vh;
-        width: 35vh;
+        height: 25vw;
+        width: 25vw;
         overflow: hidden;
-        margin: 5vh;
+        margin: 1vw;
         box-shadow: 0px 0px 7px -2px #BABABA;
         border-radius: 1vh;
         background-image: url('/images/screenshots/uiUxCollaboration.png');
@@ -291,6 +291,8 @@ Celeste: #5fb2a6
         justify-content: center;
         align-items: center;
         height: 10vh;
+        margin-top: 5vh;
+        color: #f6f7f9;
     }
 
     .icons {
