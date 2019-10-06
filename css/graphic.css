@@ -135,6 +135,10 @@ Celeste: #5fb2a6
         opacity: 100;
         background-color: rgba(30, 36, 40, 0.5);
   }
+
+  .img-text1 {
+      width: 20vw;
+  }
   
   .img-container2 {
       display: flex;
@@ -152,8 +156,23 @@ Celeste: #5fb2a6
       background-repeat: no-repeat;
       background-color: #76c4bc;
   }
-  .img-container2:hover {
-    
+  .img-title2 {
+        opacity: 0;
+        padding: 50vh 38vw;
+        text-align: center;
+        font-size: 2em;
+        font-weight: bolder;
+        text-decoration: none;
+        color: white;
+  }
+
+  .img-title2:hover {
+        opacity: 100;
+        background-color: rgba(30, 36, 40, 0.5);
+  }
+
+  .img-text2 {
+      width: 20vw;
   }
   
   .img-container3 {
@@ -172,8 +191,23 @@ Celeste: #5fb2a6
       background-repeat: no-repeat;
       background-color: #f6f7f9;
   }
-  .img-container3:hover {
-    
+  .img-title3 {
+        opacity: 0;
+        padding: 50vh 29vw;
+        text-align: center;
+        font-size: 2em;
+        font-weight: bolder;
+        text-decoration: none;
+        color: white;
+  }
+
+  .img-title3:hover {
+        opacity: 100;
+        background-color: rgba(30, 36, 40, 0.5);
+  }
+
+  .img-text3 {
+      width: 20vw;
   }
   
   .img-container4 {
@@ -192,8 +226,23 @@ Celeste: #5fb2a6
       background-repeat: no-repeat;
       background-color: #0F4C85;
   }
-  .img-container4:hover {
-    
+  .img-title4 {
+        opacity: 0;
+        padding: 50vh 29vw;
+        text-align: center;
+        font-size: 2em;
+        font-weight: bolder;
+        text-decoration: none;
+        color: white;
+  }
+
+  .img-title4:hover {
+        opacity: 100;
+        background-color: rgba(30, 36, 40, 0.5);
+  }
+
+  .img-text4 {
+      width: 20vw;
   }
   
   .img-container5 {
@@ -212,14 +261,23 @@ Celeste: #5fb2a6
       background-repeat: no-repeat;
       background-color: #f6f7f9;
   }
-  .img-container5:hover {
-    
+  .img-title5 {
+        opacity: 0;
+        padding: 50vh 29vw;
+        text-align: center;
+        font-size: 2em;
+        font-weight: bolder;
+        text-decoration: none;
+        color: white;
   }
-  
-  .img-containe-stack {
-    display: flex;
-    flex-direction: column;
-    width: 44vw;
+
+  .img-title5:hover {
+        opacity: 100;
+        background-color: rgba(30, 36, 40, 0.5);
+  }
+
+  .img-text5 {
+      width: 20vw;
   }
 
   .img-container6 {
@@ -238,8 +296,23 @@ Celeste: #5fb2a6
       background-repeat: no-repeat;
       background-color: #f6f7f9;
   }
-  .img-container6:hover {
-    
+  .img-title6 {
+        opacity: 0;
+        padding: 35vh 43vw;
+        text-align: center;
+        font-size: 2em;
+        font-weight: bolder;
+        text-decoration: none;
+        color: white;
+  }
+
+  .img-title6:hover {
+        opacity: 100;
+        background-color: rgba(30, 36, 40, 0.5);
+  }
+
+  .img-text6 {
+      width: 20vw;
   }
   
   .img-container7 {
@@ -258,8 +331,23 @@ Celeste: #5fb2a6
       background-repeat: no-repeat;
       background-color: #1e231e;
   }
-  .img-container7:hover {
-    
+  .img-title7 {
+        opacity: 0;
+        padding: 35vh 22vw;
+        text-align: center;
+        font-size: 2em;
+        font-weight: bolder;
+        text-decoration: none;
+        color: white;
+  }
+
+  .img-title7:hover {
+        opacity: 100;
+        background-color: rgba(30, 36, 40, 0.5);
+  }
+
+  .img-text7 {
+      width: 20vw;
   }
   
   .img-container8 {
@@ -272,14 +360,29 @@ Celeste: #5fb2a6
       margin: 0.5vw;
       box-shadow: 0px 0px 7px -2px #BABABA;
       border-radius: .5vh;
-      background-image: url('/images//graphicDesign/');
+      background-image: url('/images/graphicDesign/doodles/doodle5.png');
       background-size: 65vh;
       background-position: center;
       background-repeat: no-repeat;
       background-color: #f6f7f9;
   }
-  .img-container8:hover {
-    
+  .img-title8 {
+        opacity: 0;
+        padding: 35vh 22vw;
+        text-align: center;
+        font-size: 2em;
+        font-weight: bolder;
+        text-decoration: none;
+        color: white;
+  }
+
+  .img-title8:hover {
+        opacity: 100;
+        background-color: rgba(30, 36, 40, 0.5);
+  }
+
+  .img-text8 {
+      width: 20vw;
   }
 
   
