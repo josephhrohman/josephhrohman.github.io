@@ -282,14 +282,12 @@ header {
     text-align: center;
     font-size: 2em;
     font-weight: bolder;
+    text-decoration: none;
     color: white;
 }
 
 .img-title:hover {
     opacity: 100;
-    font-size: 2em;
-    font-weight: bolder;
-    color: white;
     background-color: rgba(30, 36, 40, 0.5);
 }
 
