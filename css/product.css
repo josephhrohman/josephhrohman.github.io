@@ -16,20 +16,20 @@ Celeste: #5fb2a6
   }
   
   body {
-      margin: 0;
-      padding: 0;
-      background-color: #32526d;
-  }
-  
-  main {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-  }
-  
-  /* ____________ Nav ____________ */
+    margin: 0;
+    padding: 0;
+    background-color: #f6f7f9;
+}
 
-  nav {
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* ____________ Nav ____________ */
+
+nav {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -43,13 +43,13 @@ Celeste: #5fb2a6
     margin: 0;
     font-size: 2.5vh;
     text-align: right;
-    color: #f6f7f9;
+    color: #1e2428;
 }
 
 .nav-line {
     width: 90vw;
     margin: 5px 0;
-    color: #f6f7f9;
+    color: #1e2428;
 }
 
 .nav-links {
@@ -63,14 +63,14 @@ Celeste: #5fb2a6
     font-size: 2.5vh;
     font-weight: bolder;
     text-decoration: none;
-    color: #f6f7f9;
+    color: #1e2428;
 }
 
 .link:hover {
     cursor: pointer;
     color: #5eb2a6;
 }
-  
+
   /* ____________ Header ____________ */
   
   header {
@@ -85,14 +85,14 @@ Celeste: #5fb2a6
       font-size: 1.65em;
       font-weight: bolder;
       margin: 5vh 0;
-      color: #f6f7f9;
+      color: #1e2428;
   }
   
   .header-content {
       text-align: center;
       font-size: 1em;
       font-weight: 100;
-      color: #f6f7f9;
+      color: #1e2428;
   }
   
   /* ____________ Main ____________ */
