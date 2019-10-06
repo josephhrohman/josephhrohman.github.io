@@ -70,30 +70,23 @@ Celeste: #5fb2a6
         cursor: pointer;
         color: #5eb2a6;
     }
-  /* ____________ Header ____________ */
-  
-  header {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      width: 90vw;
-  }
-  
-  .header-title {
-      font-size: 1.65em;
-      font-weight: bolder;
-      margin: 5vh 0;
-      color: #1e231e;;
-  }
-  
-  .header-content {
-      text-align: center;
-      font-size: 1em;
-      font-weight: 100;
-      color: #1e231e;
-      margin-bottom: 5vh;
-  }
+
+    /* ____________ Header ____________ */
+
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 90vw;
+    }
+
+    .header-title {
+        font-size: 1.65em;
+        font-weight: bolder;
+        margin: 5vh 0;
+        color: #1e2428;
+    }
   
   /* ____________ Main ____________ */
   
@@ -189,7 +182,7 @@ Celeste: #5fb2a6
       background-size: 100%;
       background-position: center;
       background-repeat: no-repeat;
-      background-color: #1e2428;
+      background-color: #8ad5ee;
   }
   .img-title3 {
         opacity: 0;
