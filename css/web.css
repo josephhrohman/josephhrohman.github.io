@@ -7,316 +7,315 @@ Blue: #32526d
 Grey: #8997a3
 White: #f6f7f9
 Celeste: #5fb2a6
- */
+*/
 
-* {
-  font-family: 'Oxygen', sans-serif;
-  margin: 0;
-  padding: 0;
-}
-
-body {
+    * {
+    font-family: 'Oxygen', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #1e2428;
-}
+    }
 
-main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: #1e2428;
+    }
 
-nav {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 10vh;
-    width: 100vw;
-}
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    /* ____________ Nav ____________ */
 
-/* ____________ Nav ____________ */
+    nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 10vh;
+        width: 100vw;
+    }
 
-.nav-name {
-    width: 90vw;
-    margin: 0;
-    font-size: 1.2em;
-    text-align: right;
-    color: #f6f7f9;
-}
+    .nav-name {
+        width: 90vw;
+        margin: 0;
+        font-size: 2.5vh;
+        text-align: right;
+        color: #f6f7f9;
+    }
 
-.nav-line {
-    width: 90vw;
-    margin: 5px 0;
-    color: #f6f7f9;
-}
+    .nav-line {
+        width: 90vw;
+        margin: 5px 0;
+        color: #f6f7f9;
+    }
 
-.nav-links {
-    display: flex;
-    width: 90vw;
-    margin: 0;
-}
+    .nav-links {
+        display: flex;
+        width: 90vw;
+        margin: 0;
+    }
 
-.link {
-    margin-right: 10px;
-    font-size: 1.2em;
-    font-weight: bolder;
-    text-decoration: none;
-    color: #f6f7f9;
-}
+    .link {
+        margin-right: 10px;
+        font-size: 2.5vh;
+        font-weight: bolder;
+        text-decoration: none;
+        color: #f6f7f9;
+    }
 
-.link:hover {
-    cursor: pointer;
-    color: #5eb2a6;
-}
+    .link:hover {
+        cursor: pointer;
+        color: #5eb2a6;
+    }
 
-/* ____________ Header ____________ */
+    /* ____________ Header ____________ */
 
-header {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 90vw;
-}
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 90vw;
+    }
 
-.header-title {
-    font-size: 1.65em;
-    font-weight: bolder;
-    margin: 5vh 0;
-    color: #f6f7f9;
-}
+    .header-title {
+        font-size: 1.65em;
+        font-weight: bolder;
+        margin: 5vh 0;
+        color: #f6f7f9;
+    }
 
-.header-content {
-    text-align: center;
-    font-size: 1em;
-    font-weight: 100;
-    color: #f6f7f9;
-}
+    .header-content {
+        text-align: center;
+        font-size: 1em;
+        font-weight: 100;
+        color: #f6f7f9;
+    }
 
-/* ____________ Main ____________ */
+    /* ____________ Main ____________ */
 
-.projects {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    width: 90vw;
-}
+    .projects {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        width: 90vw;
+    }
 
-.img-container1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 35vh;
-    width: 35vh;
-    overflow: hidden;
-    margin: 5vh;
-    box-shadow: 0px 0px 7px -2px #BABABA;
-    border-radius: 1vh;
-    background-image: url('/images/screenshots/tractuPharma.png');
-    background-size: 65vh;
-    background-position: center;
-    transition: transform 0.5s;
-}
-.img-container1:hover {
-    transform: scale(1.1); 
-}
+    .img-container1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 35vh;
+        width: 35vh;
+        overflow: hidden;
+        margin: 5vh;
+        box-shadow: 0px 0px 7px -2px #BABABA;
+        border-radius: 1vh;
+        background-image: url('/images/screenshots/tractuPharma.png');
+        background-size: 65vh;
+        background-position: center;
+        transition: transform 0.5s;
+    }
+    .img-container1:hover {
+        transform: scale(1.1); 
+    }
 
-.img-container2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 35vh;
-    width: 35vh;
-    overflow: hidden;
-    margin: 5vh;
-    box-shadow: 0px 0px 7px -2px #BABABA;
-    border-radius: 1vh;
-    background-image: url('/images/screenshots/reactFinalProject.png');
-    background-size: 65vh;
-    background-position: center;
-    transition: transform 0.5s;
-}
-.img-container2:hover {
-    transform: scale(1.1); 
-}
+    .img-container2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 35vh;
+        width: 35vh;
+        overflow: hidden;
+        margin: 5vh;
+        box-shadow: 0px 0px 7px -2px #BABABA;
+        border-radius: 1vh;
+        background-image: url('/images/screenshots/reactFinalProject.png');
+        background-size: 65vh;
+        background-position: center;
+        transition: transform 0.5s;
+    }
+    .img-container2:hover {
+        transform: scale(1.1); 
+    }
 
-.img-container3 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 35vh;
-    width: 35vh;
-    overflow: hidden;
-    margin: 5vh;
-    box-shadow: 0px 0px 7px -2px #BABABA;
-    border-radius: 1vh;
-    background-image: url('/images/screenshots/reactPersonalSite.png');
-    background-size: 65vh;
-    background-position: center;
-    transition: transform 0.5s;
-}
-.img-container3:hover {
-    transform: scale(1.1); 
-}
+    .img-container3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 35vh;
+        width: 35vh;
+        overflow: hidden;
+        margin: 5vh;
+        box-shadow: 0px 0px 7px -2px #BABABA;
+        border-radius: 1vh;
+        background-image: url('/images/screenshots/reactPersonalSite.png');
+        background-size: 65vh;
+        background-position: center;
+        transition: transform 0.5s;
+    }
+    .img-container3:hover {
+        transform: scale(1.1); 
+    }
 
-.img-container4 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 35vh;
-    width: 35vh;
-    overflow: hidden;
-    margin: 5vh;
-    box-shadow: 0px 0px 7px -2px #BABABA;
-    border-radius: 1vh;
-    background-image: url('/images/screenshots/compassRose.png');
-    background-size: 65vh;
-    background-position: center;
-    transition: transform 0.5s;
-}
-.img-container4:hover {
-    transform: scale(1.1); 
-}
+    .img-container4 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 35vh;
+        width: 35vh;
+        overflow: hidden;
+        margin: 5vh;
+        box-shadow: 0px 0px 7px -2px #BABABA;
+        border-radius: 1vh;
+        background-image: url('/images/screenshots/compassRose.png');
+        background-size: 65vh;
+        background-position: center;
+        transition: transform 0.5s;
+    }
+    .img-container4:hover {
+        transform: scale(1.1); 
+    }
 
-.img-container5 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 35vh;
-    width: 35vh;
-    overflow: hidden;
-    margin: 5vh;
-    box-shadow: 0px 0px 7px -2px #BABABA;
-    border-radius: 1vh;
-    background-image: url('/images/screenshots/portfolioSite.png');
-    background-size: 65vh;
-    background-position: center;
-    transition: transform 0.5s;
-}
-.img-container5:hover {
-    transform: scale(1.1); 
-}
+    .img-container5 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 35vh;
+        width: 35vh;
+        overflow: hidden;
+        margin: 5vh;
+        box-shadow: 0px 0px 7px -2px #BABABA;
+        border-radius: 1vh;
+        background-image: url('/images/screenshots/portfolioSite.png');
+        background-size: 65vh;
+        background-position: center;
+        transition: transform 0.5s;
+    }
+    .img-container5:hover {
+        transform: scale(1.1); 
+    }
 
-.img-container6 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 35vh;
-    width: 35vh;
-    overflow: hidden;
-    margin: 5vh;
-    box-shadow: 0px 0px 7px -2px #BABABA;
-    border-radius: 1vh;
-    background-image: url('/images/screenshots/firstPersonalWebsite.png');
-    background-size: 65vh;
-    background-position: center;
-    transition: transform 0.5s;
-}
-.img-container6:hover {
-    transform: scale(1.1); 
-}
+    .img-container6 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 35vh;
+        width: 35vh;
+        overflow: hidden;
+        margin: 5vh;
+        box-shadow: 0px 0px 7px -2px #BABABA;
+        border-radius: 1vh;
+        background-image: url('/images/screenshots/firstPersonalWebsite.png');
+        background-size: 65vh;
+        background-position: center;
+        transition: transform 0.5s;
+    }
+    .img-container6:hover {
+        transform: scale(1.1); 
+    }
 
-.img-container7 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 35vh;
-    width: 35vh;
-    overflow: hidden;
-    margin: 5vh;
-    box-shadow: 0px 0px 7px -2px #BABABA;
-    border-radius: 1vh;
-    background-image: url('/images/screenshots/2ndPersonalWebsite.png');
-    background-size: 65vh;
-    background-position: center;
-    transition: transform 0.5s;
-}
-.img-container7:hover {
-    transform: scale(1.1); 
-}
+    .img-container7 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 35vh;
+        width: 35vh;
+        overflow: hidden;
+        margin: 5vh;
+        box-shadow: 0px 0px 7px -2px #BABABA;
+        border-radius: 1vh;
+        background-image: url('/images/screenshots/2ndPersonalWebsite.png');
+        background-size: 65vh;
+        background-position: center;
+        transition: transform 0.5s;
+    }
+    .img-container7:hover {
+        transform: scale(1.1); 
+    }
 
-.img-container8 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 35vh;
-    width: 35vh;
-    overflow: hidden;
-    margin: 5vh;
-    box-shadow: 0px 0px 7px -2px #BABABA;
-    border-radius: 1vh;
-    background-image: url('/images/screenshots/pythonFlashCard.png');
-    background-size: 65vh;
-    background-position: center;
-    transition: transform 0.5s;
-}
-.img-container8:hover {
-    transform: scale(1.1); 
-}
+    .img-container8 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 35vh;
+        width: 35vh;
+        overflow: hidden;
+        margin: 5vh;
+        box-shadow: 0px 0px 7px -2px #BABABA;
+        border-radius: 1vh;
+        background-image: url('/images/screenshots/pythonFlashCard.png');
+        background-size: 65vh;
+        background-position: center;
+        transition: transform 0.5s;
+    }
+    .img-container8:hover {
+        transform: scale(1.1); 
+    }
 
-.img-container9 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 35vh;
-    width: 35vh;
-    overflow: hidden;
-    margin: 5vh;
-    box-shadow: 0px 0px 7px -2px #BABABA;
-    border-radius: 1vh;
-    background-image: url('/images/screenshots/uiUxCollaboration.png');
-    background-size: 65vh;
-    background-position: center;
-    transition: transform 0.5s;
-}
-.img-container9:hover {
-    transform: scale(1.1); 
-}
+    .img-container9 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 35vh;
+        width: 35vh;
+        overflow: hidden;
+        margin: 5vh;
+        box-shadow: 0px 0px 7px -2px #BABABA;
+        border-radius: 1vh;
+        background-image: url('/images/screenshots/uiUxCollaboration.png');
+        background-size: 65vh;
+        background-position: center;
+        transition: transform 0.5s;
+    }
+    .img-container9:hover {
+        transform: scale(1.1); 
+    }
 
-.img-title {
-    opacity: 0;
-    padding: 17.5vh;
-    text-align: center;
-    font-size: 2em;
-    font-weight: bolder;
-    text-decoration: none;
-    color: white;
-}
+    .img-title {
+        opacity: 0;
+        padding: 17.5vh;
+        text-align: center;
+        font-size: 2em;
+        font-weight: bolder;
+        text-decoration: none;
+        color: white;
+    }
 
-.img-title:hover {
-    opacity: 100;
-    background-color: rgba(30, 36, 40, 0.5);
-}
+    .img-title:hover {
+        opacity: 100;
+        background-color: rgba(30, 36, 40, 0.5);
+    }
 
-/* ____________ Footer ____________ */
+    /* ____________ Footer ____________ */
 
-footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 10vh;
-}
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 10vh;
+    }
 
-.icons {
-    height: 50px;
-    width: 50px;
-    margin: 5px;
-}
+    .icons {
+        height: 50px;
+        width: 50px;
+        margin: 5px;
+    }
 
-.footer-bottom {
-    margin-bottom: 5vh;
-}
+    .footer-bottom {
+        margin-bottom: 5vh;
+    }
 
-/* ____________ Web Dev Page Mobile ____________ */
+    /* ____________ Web Dev Page Mobile ____________ */
 
 
-@media only screen and (max-width: 450px) {
-    
-}
+    @media only screen and (max-width: 450px) {
+        
+    }
 
 
 

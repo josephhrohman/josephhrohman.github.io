@@ -27,50 +27,49 @@ Celeste: #5fb2a6
       align-items: center;
   }
   
-  nav {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      height: 10vh;
-      width: 100vw;
-  }
-  
-  /* ____________ Nav ____________ */
-  
-  .nav-name {
-      width: 90vw;
-      margin: 0;
-      font-size: 1.2em;
-      text-align: right;
-      color: #1e231e;
-  }
-  
-  .nav-line {
-      width: 90vw;
-      margin: 5px 0;
-      color: #1e231e;
-  }
-  
-  .nav-links {
-      display: flex;
-      width: 90vw;
-      margin: 0;
-  }
-  
-  .link {
-      margin-right: 10px;
-      font-size: 1.2em;
-      font-weight: bolder;
-      text-decoration: none;
-      color: #1e231e;
-  }
-  
-  .link:hover {
-      cursor: pointer;
-      color: #5eb2a6;
-  }
-  
+    /* ____________ Nav ____________ */
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 10vh;
+        width: 100vw;
+    }
+
+    .nav-name {
+        width: 90vw;
+        margin: 0;
+        font-size: 2.5vh;
+        text-align: right;
+        color: #1e2428;
+    }
+
+    .nav-line {
+        width: 90vw;
+        margin: 5px 0;
+        color: #1e2428;
+    }
+
+    .nav-links {
+        display: flex;
+        width: 90vw;
+        margin: 0;
+    }
+
+    .link {
+        margin-right: 10px;
+        font-size: 2.5vh;
+        font-weight: bolder;
+        text-decoration: none;
+        color: #1e2428;
+    }
+
+    .link:hover {
+        cursor: pointer;
+        color: #5eb2a6;
+    }
   /* ____________ Header ____________ */
   
   header {
@@ -122,8 +121,19 @@ Celeste: #5fb2a6
       background-repeat: no-repeat;
       background-color: #f8ac41;
   }
-  .img-container1:hover {
-    
+  .img-title1 {
+        opacity: 0;
+        padding: 50vh 50vw;
+        text-align: center;
+        font-size: 2em;
+        font-weight: bolder;
+        text-decoration: none;
+        color: white;
+  }
+
+  .img-title1:hover {
+        opacity: 100;
+        background-color: rgba(30, 36, 40, 0.5);
   }
   
   .img-container2 {
@@ -271,21 +281,7 @@ Celeste: #5fb2a6
   .img-container8:hover {
     
   }
-  
-  .img-title {
-      opacity: 0;
-      padding: 17.5vh;
-      text-align: center;
-      font-size: 2em;
-      font-weight: bolder;
-      text-decoration: none;
-      color: white;
-  }
-  
-  .img-title:hover {
-      opacity: 100;
-      background-color: rgba(30, 36, 40, 0.5);
-  }
+
   
   /* ____________ Footer ____________ */
   
