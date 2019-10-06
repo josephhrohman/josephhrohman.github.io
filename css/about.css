@@ -167,14 +167,14 @@ nav {
 .blurb {
     text-align: center;
     font-weight: bolder;
-    font-size: 2em;
+    font-size: 2.25vw;
     color: white;
 }
 
 .blurb-link {
     text-align: center;
     font-weight: bolder;
-    font-size: 3em;
+    font-size: 3.5vw;
     text-decoration: none;
     color: #f9c06e;
 }
@@ -461,10 +461,10 @@ footer {
     margin-bottom: 5vh;
 }
 
-/* ____________ Index Page Mobile ____________ */
+/* ____________ About Page Mobile ____________ */
 
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 1000px) {
     
 }
 
