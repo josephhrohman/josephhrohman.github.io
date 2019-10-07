@@ -99,7 +99,7 @@ Celeste: #5fb2a6
         width: 90vw;
         margin: 0;
         background-image: url('/images/graphicDesign/tbLogo.png');
-        background-size: 30vh;
+        background-size: 25vh;
         background-repeat: no-repeat;
         background-position: center;
     }
@@ -121,11 +121,24 @@ Celeste: #5fb2a6
         color: #1e2328;
     }
 
+
+    .links-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .links {
+        text-decoration: none;
+        margin: 1vw;
+        font-size: 1.5vw;
+        font-weight: 300;
+    }
+
     /* ____________ Content ____________ */
 
     .panel1 {
         width: 60vw;
-        margin-top: 5vh;
     }
 
     .panel1-title {
@@ -167,6 +180,7 @@ Celeste: #5fb2a6
         width: 44vw;
         margin: 1vw;
     }
+
 
     /* ____________ Footer ____________ */
 
