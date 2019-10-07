@@ -91,6 +91,7 @@ Celeste: #5fb2a6
         width: 30vw;
         padding: 2vw;
         background-color: #5eb2a6;
+        box-shadow: 0px 0px 7px -2px #BABABA;
         border-radius: 2.5vh;
         animation: popOutAnimation1 2s ease-in-out;
     }
@@ -116,6 +117,7 @@ Celeste: #5fb2a6
         width: 30vw;
         padding: 2vw;
         background-color: #5eb2a6;
+        box-shadow: 0px 0px 7px -2px #BABABA;
         border-radius: 2.5vh;
         transition: ease-out .5s;
     }
@@ -132,6 +134,7 @@ Celeste: #5fb2a6
         width: 30vw;
         padding: 2vw;
         background-color: #5eb2a6;
+        box-shadow: 0px 0px 7px -2px #BABABA;
         border-radius: 2.5vh;
         transition: ease-out .5s;
     }
