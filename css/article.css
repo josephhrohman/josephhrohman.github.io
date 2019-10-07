@@ -191,6 +191,11 @@ Celeste: #5fb2a6
         margin: 1vw;
     }
 
+    video  {
+        height: auto;
+        width: 44vw;
+        margin: 1vw;
+    }
 
     /* ____________ Footer ____________ */
 
