@@ -74,11 +74,21 @@ Celeste: #5fb2a6
 
     /* ____________ Splash ____________ */
 
-    .splash-img {
+    .splash-img-tractu {
         height: 30vh;
         width: 90vw;
         margin: 0;
         background-image: url('/images/graphicDesign/tractuLogo.png');
+        background-size: 30vh;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .splash-img-compass-rose {
+        height: 30vh;
+        width: 90vw;
+        margin: 0;
+        background-image: url('/images/logo/crLogo.png');
         background-size: 30vh;
         background-repeat: no-repeat;
         background-position: center;
@@ -103,10 +113,31 @@ Celeste: #5fb2a6
 
     /* ____________ Content ____________ */
 
-    
+    .panel1 {
+        width: 60vw;
+        margin-top: 5vh;
+    }
 
+    .panel1-title {
+        font-size: 1.5vw;
+        font-weight: bolder;
+        margin: 1vw;
+    }
 
+    .panel1-content {
+        font-size: 1.25vw;
+        font-weight: 300;
+        margin: 1vw;
+    }
 
+    .panel2 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .panel2-imgs {
+
+    }
 
     /* ____________ Footer ____________ */
 
