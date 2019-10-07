@@ -202,7 +202,7 @@ Celeste: #5fb2a6
         margin: 1vw;
         box-shadow: 0px 0px 7px -2px #BABABA;
         border-radius: 1vh;
-        background-image: url('/images/screenshots/firstPersonalWebsite.png');
+        background-image: url('/images/screenshots/2ndPersonalWebsite.png');
         background-size: 65vh;
         background-position: center;
         transition: transform 0.5s;
@@ -221,7 +221,7 @@ Celeste: #5fb2a6
         margin: 1vw;
         box-shadow: 0px 0px 7px -2px #BABABA;
         border-radius: 1vh;
-        background-image: url('/images/screenshots/2ndPersonalWebsite.png');
+        background-image: url('/images/screenshots/firstPersonalWebsite.png');
         background-size: 65vh;
         background-position: center;
         transition: transform 0.5s;
