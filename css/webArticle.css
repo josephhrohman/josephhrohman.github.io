@@ -84,16 +84,7 @@ Celeste: #5fb2a6
         background-position: center;
     }
 
-    .splash-img-compass-rose {
-        height: 30vh;
-        width: 90vw;
-        margin: 0;
-        background-image: url('/images/CR/crLogo.png');
-        background-size: 30vh;
-        background-repeat: no-repeat;
-        background-position: center;
-    }
-
+    
     .splash-img-toolBelt {
         height: 30vh;
         width: 90vw;
@@ -103,13 +94,33 @@ Celeste: #5fb2a6
         background-repeat: no-repeat;
         background-position: center;
     }
-
+    
     .splash-img-jhrohman {
         height: 30vh;
         width: 90vw;
         margin: 0;
         background-image: url('/images/logo/jrLogoResume.png');
         background-size: 25vh;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+    .splash-img-compass-rose {
+        height: 30vh;
+        width: 90vw;
+        margin: 0;
+        background-image: url('/images/CR/crLogo.png');
+        background-size: 30vh;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+    .splash-img-celeste {
+        height: 30vh;
+        width: 90vw;
+        margin: 0;
+        background-image: url('/images/graphicDesign/leaves.png');
+        background-size: 30vh;
         background-repeat: no-repeat;
         background-position: center;
     }
