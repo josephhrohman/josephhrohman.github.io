@@ -104,6 +104,16 @@ Celeste: #5fb2a6
         background-position: center;
     }
 
+    .splash-img-jhrohman {
+        height: 30vh;
+        width: 90vw;
+        margin: 0;
+        background-image: url('/images/logo/jrLogoResume.png');
+        background-size: 25vh;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
     /* ____________ Header ____________ */
 
     header {
