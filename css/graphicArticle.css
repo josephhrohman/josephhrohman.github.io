@@ -115,7 +115,7 @@ Celeste: #5fb2a6
         background-size: 35vh;
         background-repeat: no-repeat;
         background-position: center;
-        border: 1px solid #1e2328;
+        box-shadow: 0px 0px 7px -2px #BABABA;
     }
 
     /* ____________ Header ____________ */
@@ -192,6 +192,20 @@ Celeste: #5fb2a6
         height: 15vh;
         width: auto;
         margin: .25vw;
+    }
+    
+    .graphic-imgs-doodles {
+        height: 65vh;
+        width: auto;
+        margin: .25vw;
+        box-shadow: 0px 0px 7px -2px #BABABA;
+    }
+    
+    .graphic-imgs-doodles:n-th {
+        height: 65vh;
+        width: auto;
+        margin: .25vw;
+        box-shadow: 0px 0px 7px -2px #BABABA;
     }
 
     /* ____________ Footer ____________ */
