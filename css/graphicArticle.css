@@ -107,6 +107,17 @@ Celeste: #5fb2a6
         background-color: #8ad5ee;
     }
 
+    .splash-img-tractu {
+        height: 45vh;
+        width: 90vw;
+        margin: 0 0 5vh 0;
+        background-image: url('/images/graphicDesign/tractuLogo.png');
+        background-size: 35vh;
+        background-repeat: no-repeat;
+        background-position: center;
+        box-shadow: 0px 0px 7px -2px #BABABA;
+    }
+
 
     /* ____________ Header ____________ */
 
@@ -190,7 +201,7 @@ Celeste: #5fb2a6
         margin: .25vw;
         box-shadow: 0px 0px 7px -2px #BABABA;
     }
-    
+
     /* ____________ Footer ____________ */
 
     footer {
