@@ -1,0 +1,231 @@
+/* ____________ All Pages ____________ */
+
+/* Style Guide
+Colors:
+Darkest: #1e2328
+Blue: #32526d
+Grey: #8997a3
+White: #f6f7f9
+Celeste: #5fb2a6
+*/
+
+    * {
+    font-family: 'Oxygen', sans-serif;
+    margin: 0;
+    padding: 0;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: #f6f7f9;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    /* ____________ Nav ____________ */
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 10vh;
+        width: 100vw;
+    }
+
+    .nav-name {
+        width: 90vw;
+        margin: 0;
+        font-size: 2.5vh;
+        text-align: right;
+        color: #1e2328;
+    }
+
+    .nav-line {
+        width: 90vw;
+        margin: 5px 0;
+        color: #1e2328;
+    }
+
+    .nav-links {
+        display: flex;
+        width: 90vw;
+        margin: 0;
+    }
+
+    .link {
+        margin-right: 10px;
+        font-size: 2.5vh;
+        font-weight: bolder;
+        text-decoration: none;
+        color: #1e2328;
+    }
+
+    .link:hover {
+        cursor: pointer;
+        color: #5eb2a6;
+    }
+
+    /* ____________________________________ Main ____________________________________ */
+
+    /* ____________ Splash ____________ */
+
+    .splash-img-tractu {
+        height: 30vh;
+        width: 90vw;
+        margin: 0;
+        background-image: url('/images/graphicDesign/tractuLogo.png');
+        background-size: 30vh;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .splash-img-compass-rose {
+        height: 30vh;
+        width: 90vw;
+        margin: 0;
+        background-image: url('/images/CR/crLogo.png');
+        background-size: 30vh;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .splash-img-toolBelt {
+        height: 30vh;
+        width: 90vw;
+        margin: 0;
+        background-image: url('/images/graphicDesign/tbLogo.png');
+        background-size: 25vh;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .splash-img-jhrohman {
+        height: 30vh;
+        width: 90vw;
+        margin: 0;
+        background-image: url('/images/logo/jrLogoResume.png');
+        background-size: 25vh;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    /* ____________ Header ____________ */
+
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 90vw;
+    }
+
+    .header-title {
+        font-size: 1.65em;
+        font-weight: bolder;
+        margin: 0;
+        color: #1e2328;
+    }
+
+
+    .links-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .links {
+        text-decoration: none;
+        margin: 1vw;
+        font-size: 1.5vw;
+        font-weight: 300;
+    }
+
+    /* ____________ Content ____________ */
+
+    .panel1 {
+        width: 60vw;
+    }
+
+    .panel1-title {
+        font-size: 1.5vw;
+        font-weight: bolder;
+        margin: 1vw;
+    }
+
+    .panel1-content {
+        font-size: 1.5vw;
+        font-weight: 300;
+        margin: 1vw;
+    }
+
+    .panel2 {
+        display: flex;
+        width: 90vw;
+    }
+
+    .site-gif {
+        height: auto;
+        width: 90vw;
+        margin: 1vw 0;
+    }
+
+    .panel3 {
+        display: flex;
+        flex-direction: column;
+        width: 90vw;
+    }
+
+    .img-container {
+        display: flex;
+        width: 90vw;
+    }
+
+    .site-img {
+        height: auto;
+        width: 44vw;
+        margin: 1vw;
+    }
+
+    video  {
+        height: auto;
+        width: 44vw;
+        margin: 1vw;
+    }
+
+    /* ____________ Footer ____________ */
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 10vh;
+        margin-top: 5vh;
+        color: #1e2328;
+    }
+
+    .icons {
+        height: 50px;
+        width: 50px;
+        margin: 5px;
+    }
+
+    .footer-bottom {
+        margin-bottom: 5vh;
+    }
+
+    /* ____________ Web Dev Page Mobile ____________ */
+
+
+    @media only screen and (max-width: 450px) {
+        
+    }
+
+
+
+
