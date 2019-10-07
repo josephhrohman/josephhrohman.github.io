@@ -96,6 +96,17 @@ Celeste: #5fb2a6
         background-color: #76c4bc;
     }
 
+    .splash-img-bitspieces {
+        height: 45vh;
+        width: 90vw;
+        margin: 0 0 5vh 0;
+        background-image: url('/images/graphicDesign/Bits_and_Pieces.png');
+        background-size: 35vh;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: #8ad5ee;
+    }
+
     /* ____________ Header ____________ */
 
     header {
