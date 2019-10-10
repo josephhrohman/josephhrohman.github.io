@@ -469,7 +469,261 @@ Celeste: #5fb2a6
     /* ____________ About Page Mobile ____________ */
 
 
-    @media only screen and (max-width: 1000px) {
+    @media only screen and (max-width: 1050px) {
+        .nav-name {
+            font-size: 1.75vh;
+        }
+    
+        .link {
+            font-size: 1.75vh;
+        }
+        
+        .about {
+            display: flex;
+            height: 460vh;
+            width: 90vw;
+        }
+    
+        .about-img1 {
+            height: 65vw;
+            top: 10vh;
+            right: 5vw;
+        }
+    
+        .about-who {
+            font-size: 5vh;
+            margin: 1vh 0 0 35vw;
+        }
+    
+        .about-text1 {
+            margin: 1vh 0 0 1vw;
+            font-size: 1.75vh;
+        }
+    
+        .about-section2 {
+            top: 65vh;
+        }
+    
+        .green-box1 {
+            height: 30vh;
+            width: 50vw;
+        }
+    
+        .about-how {
+            font-size: 5vh;
+            margin-top: 3vh;
+            margin-left: 45vw;
+        }
+    
+        .about-text2 {
+            margin: 2.5vh 0 0 25vw;
+            font-size: 1.75vh;
+        }
+    
+        .about-text3 {
+            margin: 2.5vh 0 0 25vw;
+            font-size: 1.75vh;
+        }
+    
+        .about-text4 {
+            margin: 2.5vh 0 0 25vw;
+            font-size: 1.75vh;
+        }
+    
+        .about-section3 {
+            display: flex;
+            position: absolute;
+            /* top: 150vh; */
+            left: 10vw;
+        }
+    
+        .green-box2 {
+            position: absolute;
+            top: 20vh;
+            right: -45vw;
+            border: 2px solid #5eb2a6;
+            height: 55vh;
+            width: 55vh;
+        }
+    
+        .green-box3 {
+            position: absolute;
+            top: 10vh;
+            right: -45vw;
+            border: 2px solid #5eb2a6;
+            height: 35vh;
+            width: 35vh;
+        }
+    
+        .about-section3-left{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            height: 95vh;
+            border-right: 1px solid #5eb2a6;
+        }
+    
+        .about-skillset {
+            text-align: right;
+            padding-right: 1.5vw;
+            font-size: 5vh;
+            font-weight: 100;
+        }
+    
+        .about-text5{
+            position: absolute;
+            top: 17vh;
+            text-align: right;
+            padding-right: 1.5vw;
+            font-size: 3.5vh;
+        }
+    
+        .about-text6{
+            position: absolute;
+            top: 37vh;
+            text-align: right;
+            padding-right: 1.5vw;
+            font-size: 3.5vh;
+        }
+    
+        .about-text7{
+            position: absolute;
+            top: 57vh;
+            text-align: right;
+            padding-right: 1.5vw;
+            font-size: 3.5vh;
+        }
+    
+        .about-text8{
+            position: absolute;
+            top: 77vh;
+            text-align: right;
+            padding-right: 1.5vw;
+            font-size: 3.5vh;
+        }
+    
+        .about-section3-right{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            height: 95vh;
+            border-left: 1px solid #5eb2a6;
+        }
+    
+        .about-fascinations {
+            font-size: 5vh;
+            padding-left: 1.5vw;
+            font-weight: bolder;
+        }
+    
+        .about-text9 {
+            position: absolute;
+            top: 12vh;
+            text-align: left;
+            padding-left: 1.5vw;
+            font-size: 3.5vh;
+        }
+    
+        .about-text10 {
+            position: absolute;
+            top: 32vh;
+            text-align: left;
+            padding-left: 1.5vw;
+            font-size: 3.5vh;
+        }
+    
+        .about-text11 {
+            position: absolute;
+            top: 52vh;
+            text-align: left;
+            padding-left: 1.5vw;
+            font-size: 3.5vh;
+        }
+    
+        .about-text12 {
+            position: absolute;
+            top: 72vh;
+            text-align: left;
+            padding-left: 1.5vw;
+            font-size: 3.5vh;
+        }
+    
+        .about-section4 {
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            top: 310vh;
+            left: 0;
+            height: 150vh;
+            width: 80vw;
+            margin: 0 10vw;
+        }
+    
+        .green-box4 {
+            position: absolute;
+            top: -20vh;
+            left: -27vw;
+            border: 2px solid #5eb2a6;
+            height: 65vh;
+            width: 35vh;
+        }
+    
+        .about-work {
+            position: absolute;
+            top: -10.5vh;
+            right: -1vw;
+            font-size: 10vh;
+            font-weight: bolder;
+        }
+    
+        .about-history {
+            position: absolute;
+            top: 8vh;
+            right: -11vw;
+            transform: rotate(90deg);
+            font-size: 10vh;
+            font-weight: bolder;
+        }
+    
+        .about-text-group {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            height: 40vh;
+            padding: 0 1vw;
+            box-shadow: 0px 0px 7px -2px #BABABA;
+        }
+    
+        .about-text-group-title {
+            margin-top: 2vh;
+            font-size: 3.5vh;
+            font-weight: bolder;
+        }
+    
+        .about-text-group-content {
+            margin: 1vw;
+            font-size: 2vh;
+        }
+    
+        .about-link {
+            padding: 1vh;
+            font-size: 3.5vh;
+            font-weight: bolder;
+            text-decoration: none;
+            text-align: right;
+            color: #5eb2a6;
+            border: 1px solid #5eb2a6;
+            border-radius: 1vh;
+        }
+    
+        .about-link:hover {
+            cursor: pointer;
+            color: white;
+            background-color: #5eb2a6;
+        }
+    
+
+    @media only screen and (max-width: 425px) {
         
     }
 
