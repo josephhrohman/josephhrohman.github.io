@@ -531,14 +531,11 @@ Celeste: #5fb2a6
         }
     
         .about-section3 {
-            display: flex;
-            position: absolute;
-            /* top: 150vh; */
+            top: 105vh;
             left: 10vw;
         }
     
         .green-box2 {
-            position: absolute;
             top: 20vh;
             right: -45vw;
             border: 2px solid #5eb2a6;
@@ -547,7 +544,6 @@ Celeste: #5fb2a6
         }
     
         .green-box3 {
-            position: absolute;
             top: 10vh;
             right: -45vw;
             border: 2px solid #5eb2a6;
@@ -556,9 +552,6 @@ Celeste: #5fb2a6
         }
     
         .about-section3-left{
-            display: flex;
-            flex-direction: column;
-            align-items: flex-end;
             height: 95vh;
             border-right: 1px solid #5eb2a6;
         }
