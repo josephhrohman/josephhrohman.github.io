@@ -1,0 +1,95 @@
+/* ____________ All Pages ____________ */
+
+/* Style Guide
+Colors:
+Darkest: #1e2328
+Blue: #32526d
+Grey: #8997a3
+White: #f6f7f9
+Celeste: #5fb2a6
+ */
+
+    * {
+    font-family: 'Oxygen', sans-serif;
+    margin: 0;
+    padding: 0;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: #1e2428;
+        background-image: url(/images/treeBackground.png);
+        background-size: 140vw;
+        background-position: -20vw -15vw;
+        background-repeat: no-repeat;
+        background-color: #8997a3;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* ____________ Nav ____________ */
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 10vh;
+        width: 100vw;
+    }
+
+    .nav-line {
+        width: 90vw;
+        margin: 5px 0;
+        color: #f6f7f9;
+    }
+
+    .nav-links {
+        display: flex;
+        justify-content: center;
+        width: 90vw;
+        margin: 0;
+    }
+
+    .link {
+        margin-right: 10px;
+        font-size: 2.5vh;
+        font-weight: bolder;
+        text-decoration: none;
+        color: #f6f7f9;
+    }
+
+    .link:hover {
+        cursor: pointer;
+        color: #5eb2a6;
+    }
+
+    /* ____________________________________ Index Page ____________________________________ */
+
+    /* ____________ Top ____________ */
+
+    .top {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 90vw;
+    }
+
+    .nav-name {
+        margin: auto 0;
+        font-size: 2.5vh;
+        text-align: center;
+        color: #f6f7f9;
+    }
+
+    .icons {
+        height: 2vw;
+        width: 2vw;
+        margin: 5px;
+    }
