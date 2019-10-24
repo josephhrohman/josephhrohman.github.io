@@ -73,12 +73,71 @@ Celeste: #5fb2a6
 
     /* ____________________________________ Tools Page ____________________________________ */
 
-    .tools-container {
-        height: 80vh;
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 90vw;
+    }
+
+    .header-title {
+        font-size: 1.65em;
+        font-weight: bolder;
+        margin: 5vh 0;
+        color: #1e2428;
     }
     
-    .tools-blurb {
-        
+    .projects {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        width: 90vw;
+    }
+    
+    .projects {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        width: 90vw;
+    }
+
+    .img-container1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 25vw;
+        width: 25vw;
+        overflow: hidden;
+        margin: 1vw;
+        box-shadow: 0px 0px 7px -2px #BABABA;
+        border-radius: 1vh;
+        background-image: url('');
+        background-color: #1e2428;
+        background-size: 65vh;
+        background-position: center;
+        transition: transform 0.5s;
+    }
+
+    .img-container1:hover {
+        transform: scale(1.1); 
+    }
+
+    .img-title1 {
+        opacity: 0;
+        padding: 50vh 50vw;
+        text-align: center;
+        font-size: 2em;
+        font-weight: bolder;
+        text-decoration: none;
+        color: white;
+    }
+
+    .img-title1:hover {
+        opacity: 100;
+        background-color: rgba(30, 36, 40, 0.5);
     }
 
     /* ____________ Footer ____________ */
@@ -95,6 +154,10 @@ Celeste: #5fb2a6
         height: 50px;
         width: 50px;
         margin: 5px;
+    }
+
+    .footer-top {
+        margin-top: 5vh;
     }
 
     .footer-bottom {
