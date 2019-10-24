@@ -1,0 +1,97 @@
+/* ____________ All Pages ____________ */
+
+/* Style Guide
+Colors:
+Darkest: #1e2328
+Blue: #32526d
+Grey: #8997a3
+White: #f6f7f9
+Celeste: #5fb2a6
+ */
+
+    * {
+    font-family: 'Oxygen', sans-serif;
+    margin: 0;
+    padding: 0;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: #f6f7f9;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* ____________ Nav ____________ */
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 10vh;
+        width: 100vw;
+    }
+
+    .nav-name {
+        width: 90vw;
+        margin: 0;
+        font-size: 2.5vh;
+        text-align: right;
+        color: #1e2428;
+    }
+
+    .nav-line {
+        width: 90vw;
+        margin: 5px 0;
+        color: #1e2428;
+    }
+
+    .nav-links {
+        display: flex;
+        width: 90vw;
+        margin: 0;
+    }
+
+    .link {
+        margin-right: 10px;
+        font-size: 2.5vh;
+        font-weight: bolder;
+        text-decoration: none;
+        color: #1e2428;
+    }
+
+    .link:hover {
+        cursor: pointer;
+        color: #5eb2a6;
+    }
+
+    /* ____________________________________ Index Page ____________________________________ */
+
+    /* ____________ Footer ____________ */
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 10vh;
+    }
+
+    .icons {
+        height: 50px;
+        width: 50px;
+        margin: 5px;
+    }
+
+    .footer-bottom {
+        margin-bottom: 5vh;
+    }
+
+    /* ____________ About Page Mobile ____________ */
+
