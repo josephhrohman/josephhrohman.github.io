@@ -266,6 +266,7 @@ Celeste: #5fb2a6
         top: 20vh;
         right: -45vw;
         border: 2px solid #5eb2a6;
+        background-color: #5eb2a6;
         height: 55vh;
         width: 55vh;
     }
@@ -275,6 +276,7 @@ Celeste: #5fb2a6
         top: 10vh;
         right: -45vw;
         border: 2px solid #5eb2a6;
+        background-color: #f6f7f9;
         height: 35vh;
         width: 35vh;
     }
@@ -296,7 +298,7 @@ Celeste: #5fb2a6
 
     .about-text5{
         position: absolute;
-        top: 17vh;
+        top: 15vh;
         text-align: right;
         padding-right: 1.5vw;
         font-size: 3.5vh;
@@ -388,6 +390,7 @@ Celeste: #5fb2a6
         top: -20vh;
         left: -27vw;
         border: 2px solid #5eb2a6;
+        background-color: #5eb2a6;
         height: 65vh;
         width: 35vh;
     }
