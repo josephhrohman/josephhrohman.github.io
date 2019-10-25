@@ -97,6 +97,40 @@ Celeste: #5fb2a6
         width: 90vw;
     }
 
+    @keyframes fadeAndRise {
+        0% {
+            transform: translateY(10%);
+            opacity: 0;
+        }
+        100% {
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
+
+    .img-container9 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 25vw;
+        width: 25vw;
+        overflow: hidden;
+        margin: 1vw;
+        box-shadow: 0px 0px 7px -2px #BABABA;
+        border-radius: 1vh;
+        background-image: url('/images/makeAMarkTechtonica.png');
+        background-size: 90%;
+        background-position: center;
+        background-color: white;
+        background-repeat: no-repeat;
+        transition: transform 0.5s;
+        animation: fadeAndRise 1s ease forwards;
+        opacity: 0;
+    }
+    .img-container9:hover {
+        transform: scale(1.1); 
+    }
+
     .img-container1 {
         display: flex;
         justify-content: center;
@@ -111,6 +145,9 @@ Celeste: #5fb2a6
         background-size: 65vh;
         background-position: center;
         transition: transform 0.5s;
+        animation: fadeAndRise 1s ease forwards;
+        opacity: 0;
+        animation-delay: 0.1s;
     }
     .img-container1:hover {
         transform: scale(1.1); 
@@ -130,6 +167,9 @@ Celeste: #5fb2a6
         background-size: 65vh;
         background-position: center;
         transition: transform 0.5s;
+        animation: fadeAndRise 1s ease forwards;
+        opacity: 0;
+        animation-delay: .2s;
     }
     .img-container2:hover {
         transform: scale(1.1); 
@@ -149,6 +189,9 @@ Celeste: #5fb2a6
         background-size: 65vh;
         background-position: center;
         transition: transform 0.5s;
+        animation: fadeAndRise 1s ease forwards;
+        opacity: 0;
+        animation-delay: .3s;
     }
     .img-container3:hover {
         transform: scale(1.1); 
@@ -168,6 +211,9 @@ Celeste: #5fb2a6
         background-size: 65vh;
         background-position: center;
         transition: transform 0.5s;
+        animation: fadeAndRise 1s ease forwards;
+        opacity: 0;
+        animation-delay: .4s;
     }
     .img-container4:hover {
         transform: scale(1.1); 
@@ -187,6 +233,9 @@ Celeste: #5fb2a6
         background-size: 65vh;
         background-position: center;
         transition: transform 0.5s;
+        animation: fadeAndRise 1s ease forwards;
+        opacity: 0;
+        animation-delay: .5s;
     }
     .img-container5:hover {
         transform: scale(1.1); 
@@ -206,6 +255,9 @@ Celeste: #5fb2a6
         background-size: 65vh;
         background-position: center;
         transition: transform 0.5s;
+        animation: fadeAndRise 1s ease forwards;
+        opacity: 0;
+        animation-delay: .6s;
     }
     .img-container6:hover {
         transform: scale(1.1); 
@@ -225,6 +277,9 @@ Celeste: #5fb2a6
         background-size: 65vh;
         background-position: center;
         transition: transform 0.5s;
+        animation: fadeAndRise 1s ease forwards;
+        opacity: 0;
+        animation-delay: .7s;
     }
     .img-container7:hover {
         transform: scale(1.1); 
@@ -244,29 +299,11 @@ Celeste: #5fb2a6
         background-size: 65vh;
         background-position: center;
         transition: transform 0.5s;
+        animation: fadeAndRise 1s ease forwards;
+        opacity: 0;
+        animation-delay: .8s;
     }
     .img-container8:hover {
-        transform: scale(1.1); 
-    }
-
-    .img-container9 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 25vw;
-        width: 25vw;
-        overflow: hidden;
-        margin: 1vw;
-        box-shadow: 0px 0px 7px -2px #BABABA;
-        border-radius: 1vh;
-        background-image: url('/images/makeAMarkTechtonica.png');
-        background-size: 90%;
-        background-position: center;
-        background-color: white;
-        background-repeat: no-repeat;
-        transition: transform 0.5s;
-    }
-    .img-container9:hover {
         transform: scale(1.1); 
     }
 
