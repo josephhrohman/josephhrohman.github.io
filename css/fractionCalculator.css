@@ -15,10 +15,28 @@
   main {
     display: flex;
     flex-direction: column;
-    width: 500px;
-    height: 500px;
     box-shadow: 0px 0px 7px -2px #BABABA;
     border-radius: 10px;
+  }
+
+  .ruler {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .displayNum {
+    font-size: 3em;
+    font-weight: bold;
+  }
+
+  .rulerImg {
+    height: auto;
+    width: 100%;
+  }
+
+  .arrow {
+    height: auto;
+    width: 30px;
   }
 
   .output {
@@ -67,11 +85,6 @@
     header {
       font-size: 1.4em;
       margin-bottom: 5px;
-    }
-  
-    main {
-      width: 370px;
-      height: 450px;
     }
   
     .valueBlock {
