@@ -1,0 +1,41 @@
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  header {
+    font-size: 2em;
+    font-weight: bolder;
+    margin-bottom: 10px;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+    box-shadow: 0px 0px 7px -2px #BABABA;
+    border-radius: 10px;
+  }
+
+  .output {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+  }
+
+  .valueBlock {
+    display: flex;
+    flex-direction: row;
+    font-size: 2em;
+  }
+
+  .input {
+    margin: 5px auto;
+    font-size: 1.2em;
+  }
