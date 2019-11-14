@@ -35,7 +35,52 @@
     font-size: 2em;
   }
 
+  .valueBlock:nth-child(1) {
+    margin: 10px 0;
+  }
+
   .input {
+    display: flex;
+    flex-direction: column;
     margin: 5px auto;
+  }
+
+  .inputField{
+    text-align: center;
+    height: 25px;
+    width: 250px;
     font-size: 1.2em;
+  }
+
+  button {
+    height: 35px;
+    width: 250px;
+    margin: 5px 0;
+    font-size: 1.2em;
+    font-weight: bolder;
+    border-radius: 5px;
+    background-color: #5fb2a6;
+    color: white;
+  }
+
+  @media only screen and (max-width: 535px) {
+    header {
+      font-size: 1.4em;
+      margin-bottom: 5px;
+    }
+  
+    main {
+      width: 370px;
+      height: 450px;
+    }
+  
+    .valueBlock {
+      font-size: 1.8em;
+    }
+  
+    .inputField{
+      height: 25px;
+      width: 250px;
+      font-size: 1.2em;
+    }
   }
