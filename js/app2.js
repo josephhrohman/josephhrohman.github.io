@@ -20,6 +20,7 @@ window.onload = function () {
     output = (num-hold)/a;
     document.getElementById("inputNumber").innerHTML = `${num}`;
     document.getElementById(valueList[0]).innerHTML = output;
+    // document.getElementById('indicator').style.
     for (let i=1; i < valueList.length; i++) {
       num = hold;
       hold = num%valueList[i];
