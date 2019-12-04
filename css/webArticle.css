@@ -179,6 +179,7 @@ Celeste: #5fb2a6
     /* ____________ Content ____________ */
 
     .panel1 {
+        height: auto;
         width: 60vw;
     }
 
@@ -196,6 +197,7 @@ Celeste: #5fb2a6
 
     .panel2 {
         display: flex;
+        height: auto;
         width: 90vw;
     }
 
@@ -208,11 +210,13 @@ Celeste: #5fb2a6
     .panel3 {
         display: flex;
         flex-direction: column;
+        height: auto;
         width: 90vw;
     }
 
     .img-container {
         display: flex;
+        height: auto;
         width: 90vw;
     }
 
