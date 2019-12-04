@@ -75,18 +75,18 @@ Celeste: #5fb2a6
     /* ____________ Splash ____________ */
 
     .splash-img-tractu {
-        height: 30vh;
+        height: 30vw;
         width: 90vw;
         margin: 0;
         background-image: url('/images/graphicDesign/tractuLogo.png');
-        background-size: 30vh;
+        background-size: 30vw;
         background-repeat: no-repeat;
         background-position: center;
     }
 
     
     .splash-img-toolBelt {
-        height: 30vh;
+        height: 30vw;
         width: 90vw;
         margin: 0;
         background-image: url('/images/graphicDesign/tbLogo.png');
@@ -96,7 +96,7 @@ Celeste: #5fb2a6
     }
     
     .splash-img-jhrohman {
-        height: 30vh;
+        height: 30vw;
         width: 90vw;
         margin: 0;
         background-image: url('/images/logo/jrLogoResume.png');
@@ -106,37 +106,37 @@ Celeste: #5fb2a6
     }
     
     .splash-img-compass-rose {
-        height: 30vh;
+        height: 30vw;
         width: 90vw;
         margin: 0;
         background-image: url('/images/CR/crLogo.png');
-        background-size: 30vh;
+        background-size: 30vw;
         background-repeat: no-repeat;
         background-position: center;
     }
     
     .splash-img-celeste {
-        height: 30vh;
+        height: 30vw;
         width: 90vw;
         margin: 0;
         background-image: url('/images/graphicDesign/leaves.png');
-        background-size: 30vh;
+        background-size: 30vw;
         background-repeat: no-repeat;
         background-position: center;
     }
     
     .splash-img-2personalSite {
-        height: 30vh;
+        height: 30vw;
         width: 90vw;
         margin: 0;
         background-image: url('/images/logo/LogoTransparent.png');
-        background-size: 30vh;
+        background-size: 30vw;
         background-repeat: no-repeat;
         background-position: center;
     }
     
     .splash-img-flasher {
-        height: 30vh;
+        height: 30vw;
         width: 90vw;
         margin: 0;
         background-image: url('/images/FLS/flasher.png');
