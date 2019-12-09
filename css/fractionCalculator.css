@@ -1,25 +1,142 @@
+  * {
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+  
   body {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
-  }
-
-  header {
-    font-size: 2em;
-    font-weight: bolder;
-    margin-bottom: 10px;
+    background-color: #e8e4db;
+    margin: 0;
   }
 
   main {
     display: flex;
     flex-direction: column;
-    box-shadow: 0px 0px 7px -2px #BABABA;
-    border-radius: 10px;
-    height: 500px;
-    width: 400px;
+    height: 100%;
+    width: 92.4vw;
   }
+
+  .valueBlockHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 92.28vw;
+    height: 8.5vw;
+    border-radius: 1vw;
+    background-color: #fff;
+  }
+
+  .headerValue {
+    font-size: 1.2em;
+  }
+
+  .output {
+    
+  }
+
+  .valueBlock {
+    display: flex;
+  }
+
+  .staticValue {
+    display: flex;
+    align-items: center;
+    height: 8.5vw;
+    width: 59.59vw;
+    margin: 3.86vw 3.86vw 0 0;
+    padding: 0 0 0 3.86vw;
+    font-size: 1.2em;
+    background-color: #fff;
+    border-radius: 1vw;
+  }
+
+  .variable {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8.5vw;
+    width: 28.83vw;
+    margin: 3.86vw 0 0 0;
+    font-size: 1.2em;
+    background-color: #fff;
+    border-radius: 1vw;
+  }
+
+  .input {
+    display: flex;
+    flex-direction: column;
+    width: 92.28vw;
+    margin: 10vw 0 0 0;
+    border-radius: 1vw;
+  }
+
+  input {
+    width: 92.28vw;
+    height: 8.5vw;
+    margin: 0 0 3.86vw 0;
+    border-radius: 1vw;
+    border: 1px solid #d0a280;
+    text-align: center;
+  }
+
+  .slider {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #c2a895;
+    border-radius: 1vw;
+  }
+
+  .imperial {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8.5vw;
+    width: 45vw;
+    font-size: 1.2em;
+  }
+
+  .metric  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8.5vw;
+    width: 45vw;
+    font-size: 1.2em;
+    background-color: #fff;
+    border: 1px solid #d0a280;
+    border-radius: 1vw;
+  }
+
+  button {
+    width: 92.28vw;
+    height: 8.5vw;
+    margin: 10vw 0 0 0;
+    border-radius: 1vw;
+    background-color: #d1a17f;
+  }
+  
+/* 
+  @media only screen and (max-width: 535px) {
+    header {
+      
+    }
+  
+    .valueBlock {
+     
+    }
+  
+    .inputField{
+      
+    }
+  } */
+
+
 
   /* .ruler {
     position: relative;
@@ -47,84 +164,3 @@
     top: 355.55px;
     left: 90px;
   } */
-
-  .output {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 5px;
-  }
-
-  .valueBlockHeader {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    font-size: 2em;
-    width: 225px;
-    margin: 10px 0;
-  }
-
-  .valueBlock {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    font-size: 2em;
-    width: 225px;
-    border: 1px solid grey;
-    border-radius: 5px;
-  }
-
-  .valueBlock>div:nth-child(1) {
-    width: 150px;
-  }
-
-  .valueBlock>div:nth-child(2) {
-    text-align: center;
-    height: 40px;
-    width: 50px;
-    background-color: white;
-    border-radius: 5px;
-  }
-
-  .input {
-    display: flex;
-    flex-direction: column;
-    margin: 5px auto;
-  }
-
-  .inputField{
-    text-align: center;
-    height: 25px;
-    width: 225px;
-    margin: 0 auto;
-    font-size: 1.2em;
-  }
-
-  button {
-    height: 35px;
-    width: 250px;
-    margin: 5px 0;
-    font-size: 1.2em;
-    font-weight: bolder;
-    border-radius: 5px;
-    background-color: #5fb2a6;
-    color: white;
-  }
-
-  @media only screen and (max-width: 535px) {
-    header {
-      font-size: 1.4em;
-      margin-bottom: 5px;
-    }
-  
-    .valueBlock {
-      font-size: 1.8em;
-    }
-  
-    .inputField{
-      height: 25px;
-      width: 250px;
-      font-size: 1.2em;
-    }
-  }
