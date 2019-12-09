@@ -121,20 +121,76 @@
     background-color: #d1a17f;
   }
   
-/* 
-  @media only screen and (max-width: 535px) {
-    header {
-      
+
+  @media only screen and (min-width: 414px) {
+    main {
+      height: 667px;
+      width: 383.45px;
     }
   
-    .valueBlock {
-     
+    .valueBlockHeader {
+      width: 383.88px;
+      height: 35.36px;
+      border-radius: 5px;
     }
   
-    .inputField{
-      
+    .staticValue {
+      height: 35.27px;
+      width: 252.86px;
+      margin: 16.019px 16.019px 0 0;
+      padding: 0 0 0 16.019px;
+      border-radius: 5px;
     }
-  } */
+  
+    .variable {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 35.27px;
+      width: 112.88px;
+      margin: 16.019px 0 0 0;
+      border-radius: 5px;
+    }
+  
+    .input {
+      display: flex;
+      flex-direction: column;
+      width: 92.28vw;
+      margin: 10vw 0 0 0;
+      border-radius: 5px;
+    }
+  
+    input {
+      width: 383.45px;
+      height: 35.27px;
+      margin: 0 0 16.019px 0;
+      border-radius: 5px;
+      text-align: center;
+    }
+  
+    .slider {
+      width: 383.45px;
+      border-radius: 5px;
+    }
+  
+    .imperial {
+      height: 35.27px;
+      width: 188.75px;
+      border-radius: 5px;
+    }
+  
+    .metric  {
+      height: 35.27px;
+      width: 188.75px;
+    }
+  
+    button {
+      width: 383.45px;
+      height: 35.27px;
+      margin: 41.5px 0 0 0;
+      border-radius: 5px;
+    }
+  }
 
 
 
