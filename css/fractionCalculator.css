@@ -17,15 +17,14 @@
   main {
     display: flex;
     flex-direction: column;
-    height: 100%;
-    width: 92.4vw;
+    width: 82.4vw;
   }
 
   .valueBlockHeader {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 92.28vw;
+    width: 82.28vw;
     height: 8.5vw;
     border-radius: 1vw;
     background-color: #fff;
@@ -47,8 +46,8 @@
     display: flex;
     align-items: center;
     height: 8.5vw;
-    width: 59.59vw;
-    margin: 3.86vw 3.86vw 0 0;
+    width: 49.59vw;
+    margin: 2.86vw 2.86vw 0 0;
     padding: 0 0 0 3.86vw;
     font-size: 1.2em;
     background-color: #fff;
@@ -61,7 +60,7 @@
     align-items: center;
     height: 8.5vw;
     width: 28.83vw;
-    margin: 3.86vw 0 0 0;
+    margin: 2.86vw 0 0 0;
     font-size: 1.2em;
     background-color: #fff;
     border-radius: 1vw;
@@ -70,13 +69,13 @@
   .input {
     display: flex;
     flex-direction: column;
-    width: 92.28vw;
+    width: 82.28vw;
     margin: 10vw 0 0 0;
     border-radius: 1vw;
   }
 
   input {
-    width: 92.28vw;
+    width: 82.28vw;
     height: 8.5vw;
     margin: 0 0 3.86vw 0;
     border-radius: 1vw;
@@ -97,7 +96,7 @@
     justify-content: center;
     align-items: center;
     height: 8.5vw;
-    width: 45vw;
+    width: 42vw;
     font-size: 1.2em;
     background-color: #fff;
     border: 1px solid #d0a280;
@@ -109,20 +108,20 @@
     justify-content: center;
     align-items: center;
     height: 8.5vw;
-    width: 45vw;
+    width: 41vw;
     font-size: 1.2em;
   }
 
   button {
-    width: 92.28vw;
+    width: 82.28vw;
     height: 8.5vw;
-    margin: 10vw 0 0 0;
+    margin: 3.86vw 0 0 0;
     border-radius: 1vw;
     background-color: #d1a17f;
   }
   
 
-  @media only screen and (min-width: 414px) {
+  @media only screen and (min-width: 415px) {
     main {
       height: 667px;
       width: 383.45px;
