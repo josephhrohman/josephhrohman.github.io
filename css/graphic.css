@@ -42,6 +42,7 @@ Celeste: #5fb2a6
         width: 90vw;
         margin: 0;
         font-size: 2.5vh;
+        text-decoration: none;
         text-align: right;
         color: #1e2428;
     }
@@ -109,7 +110,7 @@ Celeste: #5fb2a6
       box-shadow: 0px 0px 7px -2px #BABABA;
       border-radius: .5vh;
       background-image: url('/images/graphicDesign/ApothecHairy_BeardedLady_2_Transparent.png');
-      background-size: 75vh;
+      background-size: 35vw;
       background-position: center;
       background-repeat: no-repeat;
       background-color: #f8ac41;
@@ -144,7 +145,7 @@ Celeste: #5fb2a6
       box-shadow: 0px 0px 7px -2px #BABABA;
       border-radius: .5vh;
       background-image: url('/images/graphicDesign/leaves.png');
-      background-size: 40vh;
+      background-size: 35vw;
       background-position: center;
       background-repeat: no-repeat;
       background-color: #76c4bc;
@@ -214,7 +215,7 @@ Celeste: #5fb2a6
       box-shadow: 0px 0px 7px -2px #BABABA;
       border-radius: .5vh;
       background-image: url('/images/graphicDesign/tractuLogo.png');
-      background-size: 80%;
+      background-size: 25vw;
       background-position: center;
       background-repeat: no-repeat;
       background-color: #0F4C85;
@@ -249,7 +250,7 @@ Celeste: #5fb2a6
       box-shadow: 0px 0px 7px -2px #BABABA;
       border-radius: .5vh;
       background-image: url('/images/graphicDesign/doodles/Artboard5.png');
-      background-size: 65vh;
+      background-size: 50vw;
       background-position: center;
       background-repeat: no-repeat;
       background-color: #f6f7f9;

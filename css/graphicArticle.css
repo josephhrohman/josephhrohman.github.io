@@ -41,6 +41,7 @@ Celeste: #5fb2a6
         width: 90vw;
         margin: 0;
         font-size: 2.5vh;
+        text-decoration: none;
         text-align: right;
         color: #1e2328;
     }
@@ -75,7 +76,7 @@ Celeste: #5fb2a6
     /* ____________ Splash ____________ */
 
     .splash-img-apothechairy {
-        height: 45vw;
+        /* height: 45vw; */
         width: 90vw;
         margin: 0 0 5vh 0;
         background-image: url('/images/graphicDesign/ApothecHairy_BeardedLady_2_Transparent.png');
@@ -86,7 +87,7 @@ Celeste: #5fb2a6
     }
 
     .splash-img-celeste {
-        height: 45vw;
+        /* height: 45vw; */
         width: 90vw;
         margin: 0 0 5vh 0;
         background-image: url('/images/graphicDesign/leaves.png');
@@ -97,7 +98,7 @@ Celeste: #5fb2a6
     }
 
     .splash-img-bitspieces {
-        height: 45vw;
+        /* height: 45vw; */
         width: 90vw;
         margin: 0 0 5vh 0;
         background-image: url('/images/graphicDesign/Bits_and_Pieces.png');
@@ -108,7 +109,7 @@ Celeste: #5fb2a6
     }
 
     .splash-img-tractu {
-        height: 45vw;
+        /* height: 45vw; */
         width: 90vw;
         margin: 0 0 5vh 0;
         background-image: url('/images/graphicDesign/tractuLogo.png');

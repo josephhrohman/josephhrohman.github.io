@@ -41,6 +41,7 @@ Celeste: #5fb2a6
         width: 90vw;
         margin: 0;
         font-size: 2.5vh;
+        text-decoration: none;
         text-align: right;
         color: #1e2328;
     }
@@ -75,7 +76,7 @@ Celeste: #5fb2a6
     /* ____________ Splash ____________ */
 
     .splash-img-tractu {
-        height: 30vw;
+        /* height: 30vw; */
         width: 90vw;
         margin: 0;
         background-image: url('/images/graphicDesign/tractuLogo.png');
@@ -86,7 +87,7 @@ Celeste: #5fb2a6
 
     
     .splash-img-toolBelt {
-        height: 30vw;
+        /* height: 30vw; */
         width: 90vw;
         margin: 0;
         background-image: url('/images/graphicDesign/tbLogo.png');
@@ -96,7 +97,7 @@ Celeste: #5fb2a6
     }
     
     .splash-img-jhrohman {
-        height: 30vw;
+        /* height: 30vw; */
         width: 90vw;
         margin: 0;
         background-image: url('/images/logo/jrLogoResume.png');
@@ -106,7 +107,7 @@ Celeste: #5fb2a6
     }
     
     .splash-img-compass-rose {
-        height: 30vw;
+        /* height: 30vw; */
         width: 90vw;
         margin: 0;
         background-image: url('/images/CR/crLogo.png');
@@ -116,7 +117,7 @@ Celeste: #5fb2a6
     }
     
     .splash-img-celeste {
-        height: 30vw;
+        /* height: 30vw; */
         width: 90vw;
         margin: 0;
         background-image: url('/images/graphicDesign/leaves.png');
@@ -126,7 +127,7 @@ Celeste: #5fb2a6
     }
     
     .splash-img-2personalSite {
-        height: 30vw;
+        /* height: 30vw; */
         width: 90vw;
         margin: 0;
         background-image: url('/images/logo/LogoTransparent.png');
@@ -136,7 +137,7 @@ Celeste: #5fb2a6
     }
     
     .splash-img-flasher {
-        height: 30vw;
+        /* height: 30vw; */
         width: 90vw;
         margin: 0;
         background-image: url('/images/FLS/flasher.png');
@@ -179,7 +180,7 @@ Celeste: #5fb2a6
     /* ____________ Content ____________ */
 
     .panel1 {
-        height: auto;
+        /* height: auto; */
         width: 60vw;
     }
 
@@ -197,12 +198,12 @@ Celeste: #5fb2a6
 
     .panel2 {
         display: flex;
-        height: auto;
+        /* height: auto; */
         width: 90vw;
     }
 
     .site-gif {
-        height: auto;
+        /* height: auto; */
         width: 90vw;
         margin: 1vw 0;
     }
@@ -210,24 +211,24 @@ Celeste: #5fb2a6
     .panel3 {
         display: flex;
         flex-direction: column;
-        height: auto;
+        /* height: auto; */
         width: 90vw;
     }
 
     .img-container {
         display: flex;
-        height: auto;
+        /* height: auto; */
         width: 90vw;
     }
 
     .site-img {
-        height: auto;
+        /* height: auto; */
         width: 44vw;
         margin: 1vw;
     }
 
     video  {
-        height: auto;
+        /* height: auto; */
         width: 44vw;
         margin: 1vw;
     }
