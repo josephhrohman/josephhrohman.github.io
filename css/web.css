@@ -108,6 +108,26 @@ Celeste: #5fb2a6
         }
     }
 
+    .img-container10 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 25vw;
+        width: 25vw;
+        overflow: hidden;
+        margin: 1vw;
+        box-shadow: 0px 0px 7px -2px #BABABA;
+        border-radius: 1vh;
+        background-image: url('/images/fractionParser.png');
+        background-size: 90%;
+        background-position: center;
+        background-color: white;
+        background-repeat: no-repeat;
+        transition: transform 0.5s;
+        animation: fadeAndRise 1s ease forwards;
+        opacity: 0;
+    }
+
     .img-container9 {
         display: flex;
         justify-content: center;
