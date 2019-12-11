@@ -98,103 +98,8 @@ nav {
       align-items: center;
       width: 90vw;
   }
-  
+
   .img-container1 {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 30vw;
-      width: 44vw;
-      overflow: hidden;
-      margin: .5vw;
-      box-shadow: 0px 0px 7px -2px #BABABA;
-      border-radius: 1vh;
-      background-image: url('/images/projects/violin.jpg');
-      background-size: 150%;
-      background-position: center;
-      transition: transform 0.5s;
-  }
-  .img-container1:hover {
-      transform: scale(1.1); 
-  }
-  
-  .img-container2 {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 30vw;
-      width: 44vw;
-      overflow: hidden;
-      margin: .5vw;
-      box-shadow: 0px 0px 7px -2px #BABABA;
-      border-radius: 1vh;
-      background-image: url('/images/projects/rpiGBA2.jpg');
-      background-size: 130%;
-      background-position: center;
-      transition: transform 0.5s;
-  }
-  .img-container2:hover {
-      transform: scale(1.1); 
-  }
-  
-  .img-container3 {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 30vw;
-      width: 44vw;
-      overflow: hidden;
-      margin: .5vw;
-      box-shadow: 0px 0px 7px -2px #BABABA;
-      border-radius: 1vh;
-      background-image: url('/images/projects/electroMag.png');
-      background-size: 150%;
-      background-position: center;
-      transition: transform 0.5s;
-  }
-  .img-container3:hover {
-      transform: scale(1.1); 
-  }
-  
-  .img-container4 {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 30vw;
-      width: 44vw;
-      overflow: hidden;
-      margin: .5vw;
-      box-shadow: 0px 0px 7px -2px #BABABA;
-      border-radius: 1vh;
-      background-image: url('/images/projects/oilcanbanjo.jpg');
-      background-size: 100%;
-      background-position: center;
-      transition: transform 0.5s;
-  }
-  .img-container4:hover {
-      transform: scale(1.1); 
-  }
-  
-  .img-container5 {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 30vw;
-      width: 44vw;
-      overflow: hidden;
-      margin: .5vw;
-      box-shadow: 0px 0px 7px -2px #BABABA;
-      border-radius: 1vh;
-      background-image: url('/images/projects/couchTable.png');
-      background-size: 65vh;
-      background-position: center;
-      transition: transform 0.5s;
-  }
-  .img-container5:hover {
-      transform: scale(1.1); 
-  }
-  
-  .img-container6 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -204,118 +109,232 @@ nav {
     margin: .5vw;
     box-shadow: 0px 0px 7px -2px #BABABA;
     border-radius: 1vh;
-    background-image: url('/images/projects/cnchood.jpg');
+    background-image: url('/images/projects/weddingCake1.jpg');
+    background-size: 125%;
+    background-position: center;
+    transition: transform 0.5s;
+}
+.img-container1:hover {
+    transform: scale(1.1); 
+}
+
+.img-container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vw;
+    width: 44vw;
+    overflow: hidden;
+    margin: .5vw;
+    box-shadow: 0px 0px 7px -2px #BABABA;
+    border-radius: 1vh;
+    background-image: url('/images/projects/violin.jpg');
     background-size: 150%;
     background-position: center;
     transition: transform 0.5s;
-  }
-  .img-container6:hover {
-      transform: scale(1.1); 
-  }
-  
-  .img-container7 {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 30vw;
-      width: 44vw;
-      overflow: hidden;
-      margin: .5vw;
-      box-shadow: 0px 0px 7px -2px #BABABA;
-      border-radius: 1vh;
-      background-image: url('/images/screenshots/2ndPersonalWebsite.png');
-      background-size: 65vh;
-      background-position: center;
-      transition: transform 0.5s;
-  }
-  .img-container7:hover {
-      transform: scale(1.1); 
-  }
-  
-  .img-container8 {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 30vw;
-      width: 44vw;
-      overflow: hidden;
-      margin: .5vw;
-      box-shadow: 0px 0px 7px -2px #BABABA;
-      border-radius: 1vh;
-      background-image: url('/images/screenshots/pythonFlashCard.png');
-      background-size: 65vh;
-      background-position: center;
-      transition: transform 0.5s;
-  }
-  .img-container8:hover {
-      transform: scale(1.1); 
-  }
-  
-  .img-container9 {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 30vw;
-      width: 44vw;
-      overflow: hidden;
-      margin: .5vw;
-      box-shadow: 0px 0px 7px -2px #BABABA;
-      border-radius: 1vh;
-      background-image: url('/images/screenshots/uiUxCollaboration.png');
-      background-size: 65vh;
-      background-position: center;
-      transition: transform 0.5s;
-  }
-  .img-container9:hover {
-      transform: scale(1.1); 
-  }
-  
-  .img-title {
-      opacity: 0;
-      padding: 30vw 44vw;
-      text-align: center;
-      font-size: 2em;
-      font-weight: bolder;
-      text-decoration: none;
-      color: white;
-  }
-  
-  .img-title:hover {
-      opacity: 100;
-      background-color: rgba(30, 36, 40, 0.5);
-  }
-  
-    .img-text {
-        width: 20vw;
-    }
+}
+.img-container2:hover {
+    transform: scale(1.1); 
+}
 
-  /* ____________ Footer ____________ */
-  
-  footer {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      height: 10vh;
-      margin-top: 5vh;
-  }
-  
-  .icons {
-      height: 50px;
-      width: 50px;
-      margin: 5px;
-  }
-  
-  .footer-bottom {
-      margin-bottom: 5vh;
-  }
-  
-  /* ____________ Web Dev Page Mobile ____________ */
-  
-  
-  @media only screen and (max-width: 450px) {
-      
-  }
+.img-container3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vw;
+    width: 44vw;
+    overflow: hidden;
+    margin: .5vw;
+    box-shadow: 0px 0px 7px -2px #BABABA;
+    border-radius: 1vh;
+    background-image: url('/images/projects/rpiGBA2.jpg');
+    background-size: 130%;
+    background-position: center;
+    transition: transform 0.5s;
+}
+.img-container3:hover {
+    transform: scale(1.1); 
+}
+
+.img-container4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vw;
+    width: 44vw;
+    overflow: hidden;
+    margin: .5vw;
+    box-shadow: 0px 0px 7px -2px #BABABA;
+    border-radius: 1vh;
+    background-image: url('/images/projects/electroMag.png');
+    background-size: 150%;
+    background-position: center;
+    transition: transform 0.5s;
+}
+.img-container4:hover {
+    transform: scale(1.1); 
+}
+
+.img-container5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vw;
+    width: 44vw;
+    overflow: hidden;
+    margin: .5vw;
+    box-shadow: 0px 0px 7px -2px #BABABA;
+    border-radius: 1vh;
+    background-image: url('/images/projects/oilcanbanjo.jpg');
+    background-size: 100%;
+    background-position: center;
+    transition: transform 0.5s;
+}
+.img-container5:hover {
+    transform: scale(1.1); 
+}
+
+.img-container6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vw;
+    width: 44vw;
+    overflow: hidden;
+    margin: .5vw;
+    box-shadow: 0px 0px 7px -2px #BABABA;
+    border-radius: 1vh;
+    background-image: url('/images/projects/couchTable.png');
+    background-size: 65vh;
+    background-position: center;
+    transition: transform 0.5s;
+}
+.img-container6:hover {
+    transform: scale(1.1); 
+}
+
+.img-container7 {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 30vw;
+width: 44vw;
+overflow: hidden;
+margin: .5vw;
+box-shadow: 0px 0px 7px -2px #BABABA;
+border-radius: 1vh;
+background-image: url('/images/projects/cnchood.jpg');
+background-size: 150%;
+background-position: center;
+transition: transform 0.5s;
+}
+.img-container7:hover {
+    transform: scale(1.1); 
+}
+
+.img-container8 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vw;
+    width: 44vw;
+    overflow: hidden;
+    margin: .5vw;
+    box-shadow: 0px 0px 7px -2px #BABABA;
+    border-radius: 1vh;
+    background-image: url('/images/screenshots/2ndPersonalWebsite.png');
+    background-size: 65vh;
+    background-position: center;
+    transition: transform 0.5s;
+}
+.img-container8:hover {
+    transform: scale(1.1); 
+}
+
+.img-container9 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vw;
+    width: 44vw;
+    overflow: hidden;
+    margin: .5vw;
+    box-shadow: 0px 0px 7px -2px #BABABA;
+    border-radius: 1vh;
+    background-image: url('/images/screenshots/pythonFlashCard.png');
+    background-size: 65vh;
+    background-position: center;
+    transition: transform 0.5s;
+}
+.img-container9:hover {
+    transform: scale(1.1); 
+}
+
+.img-container10 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vw;
+    width: 44vw;
+    overflow: hidden;
+    margin: .5vw;
+    box-shadow: 0px 0px 7px -2px #BABABA;
+    border-radius: 1vh;
+    background-image: url('/images/screenshots/uiUxCollaboration.png');
+    background-size: 65vh;
+    background-position: center;
+    transition: transform 0.5s;
+}
+.img-container10:hover {
+    transform: scale(1.1); 
+}
+
+.img-title {
+    opacity: 0;
+    padding: 30vw 44vw;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bolder;
+    text-decoration: none;
+    color: white;
+}
+
+.img-title:hover {
+    opacity: 100;
+    background-color: rgba(30, 36, 40, 0.5);
+}
+
+.img-text {
+    width: 20vw;
+}
+
+/* ____________ Footer ____________ */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    margin-top: 5vh;
+}
+
+.icons {
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+}
+
+.footer-bottom {
+    margin-bottom: 5vh;
+}
+
+/* ____________ Web Dev Page Mobile ____________ */
+
+
+@media only screen and (max-width: 450px) {
+    
+}
   
   
   
