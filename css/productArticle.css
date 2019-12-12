@@ -95,6 +95,16 @@ Celeste: #5fb2a6
         background-position: center;
     }
 
+    .splash-img-oilCanSplash {
+        height: 30vw;
+        width: 90vw;
+        margin: 0;
+        background-image: url('/images/productDesign/oilCanInstruments/oilCanSplash.JPG');
+        background-size: 50vw;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
     /* ____________ Header ____________ */
 
     header {
@@ -160,6 +170,26 @@ Celeste: #5fb2a6
         margin: 0 3vw;
     }
 
+    .img-left-horizontal {
+        display: flex;
+        flex-direction: row;
+        /* flex-wrap: wrap; */
+        align-items: center;
+        justify-content: center;
+        width: 40vw;
+        margin: 0 3vw;
+    }
+
+    .img-right-horizontal {
+        display: flex;
+        flex-direction: row;
+        /* flex-wrap: wrap; */
+        align-items: center;
+        justify-content: center;
+        width: 40vw;
+        margin: 0 3vw;
+    }
+
     .text-right {
         display: flex;
         flex-direction: column;
@@ -178,6 +208,15 @@ Celeste: #5fb2a6
         margin: 0 3vw;
     }
 
+    .text-left-horizontal {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        width: 35vw;
+        margin: 0 3vw;
+    }
+
     .product-img-single {
         height: auto;
         width: 100%;
@@ -187,7 +226,13 @@ Celeste: #5fb2a6
         height: auto;
         width: 74%;
     }
-
+    
+    .product-img-double-drawing {
+        height: auto;
+        width: 65%;
+        margin-right: 5vw;
+    }
+    
     .product-img-quad {
         height: auto;
         width: 45%;
