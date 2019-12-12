@@ -283,6 +283,19 @@ Celeste: #5fb2a6
         width: 75vw;
     }
 
+    .photo-gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        width: 100vw;
+    }
+
+    .photo-gallery-imgs {
+        height: auto;
+        width: 30vw;
+    }
+
 
     /* ____________ Footer ____________ */
 
