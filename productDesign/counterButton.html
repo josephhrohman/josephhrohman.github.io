@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/productArticle.css">
+    <!-- <script src="js/app.js"></script> -->
+    <link href="https://fonts.googleapis.com/css?family=Oxygen&display=swap" rel="stylesheet">
+    <title>Jhrohman</title>
+</head>
+<body>
+  <main>
+
+    <nav>
+      <a href="../index.html" class="nav-name"><div>jhrohman</div></a>
+      <hr class="nav-line"/>
+      <div class="nav-links">
+        <a href="../webDevelopement.html" class="link"><p id="navWeb">web</p></a>
+        <a href="../productDesign.html" class="link"><p id="navProduct">product</p></a>
+        <a href="../graphicDesign.html" class="link"><p id="navGraphic">graphic</p></a>
+        <a href="../tools.html" class="link"><p id="navTools">tools</p></a>
+        <a href="../about.html" class="link"><p id="navAbout">about</p></a>
+      </div>
+    </nav>
+
+    <div class="splash-img-counter-button"></div>
+    <header>
+      <p class="header-title">counter button for event</p>
+    </header>
+
+    <div class="panel">
+      <div class="text-left">
+        the company i worked for designed and produced over 25 makeup brand booths at a convention and one of them decided they wanted a button for people to press as they enter the booth and a number on a screen would increment.
+        <br/><br/>
+        i take on the project having absolutely no experience coding and started by hacking apart a cheap bluetooth keyboard.  i knew that, in theory, i needed a receiver otherwise we'd have an ugly, 15' wire to deal with.
+      </div>
+      <div class="img-right-horizontal">
+        <img src="../images/productDesign/counterButton/IMG_0828.jpg" alt="" class="product-img-single">
+      </div>
+    </div>
+    <div class="panel">
+      <div class="img-left">
+        <img src="../images/productDesign//counterButton/IMG_0829.jpg" alt="" class="product-img-single">
+      </div>
+      <div class="text-right">
+        being in the event industry - you look for items that are already built and salvage them for parts.  it's much faster this way.
+        <br/><br/>
+        in this case, i took a staples easy button because of it's size, shape, and function and put my new circuit inside of it.
+      </div>
+    </div>
+    <div class="panel">
+      <div class="text-right">
+        inspecting the circuit in the cheap bluetooth keyboard i quickly realized that every key on the keyboard was actually connected by the same, partially broken, conductive trace.
+        <br/><br/>
+        because of this, i devised a theory that maybe the logic of the board is set to read different resistances as different keys on the board.
+        <br/><br/>
+        to my suprise, that's exactly what was going on and by carfully soldering some leads on the board, i was able to print out '000000' on screen.
+      </div>
+      <div class="img-left">
+          <img src="../images/productDesign/counterButton/IMG_0831.jpg" alt="" class="product-img-single">
+      </div>
+    </div>
+    <div class="panel">
+      <div class="img-right">
+          <img src="../images/productDesign/counterButton/IMG_0833.jpg" alt="" class="product-img-double">
+          <img src="../images/productDesign/counterButton/IMG_0834.jpg" alt="" class="product-img-double">
+      </div>
+      <div class="text-left">
+        i could rely on two loose wires touching each other when someone hits the button - so i further salvage a conductive pad and trace from an old usb game controller.
+        <br/><br/>
+        this was a really useful step because the button cap was so tall, i could slowly sand it down to adjust for the throw of the button. that way i could guarantee the button press would work every time.
+      </div>
+    </div>
+    <div class="panel-video">
+      <video class="video-vertical" controls>
+        <source src="../images/productDesign/counterButton/IMG_0837.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+      </video>
+      <video class="video-vertical" controls>
+        <source src="../images/productDesign/counterButton/IMG_0835.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+      </video>
+      <video class="video-vertical" controls>
+        <source src="../images/productDesign/counterButton/IMG_0836.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+      </video>
+    </div>
+    </div>
+
+  </main>
+
+
+  <footer>
+    <div class="footer-top">
+      <a href="/Joseph_Rohman_Resume_Web.pdf"><img src="/images/logo/cvLogo.png" alt="footer icon" class="icons"></a>
+      <a href="https://www.linkedin.com/in/jhrohman/"><img src="/images/logo/liLogo.png" alt="footer icon" class="icons"></a>
+      <a href="https://github.com/josephhrohman"><img src="/images/logo/ghLogo.png" alt="footer icon" class="icons"></a>
+      <a href="https://profiles.generalassemb.ly/profiles/joseph-rohman"><img src="/images/logo/gaLogo.png" alt="footer icon" class="icons"></a>
+    </div>
+    <div class="footer-bottom">
+      <p class="footer-copyright">&copy Joseph Rohman 2019</p>
+    </div>
+  </footer>
+</body>
+</html>

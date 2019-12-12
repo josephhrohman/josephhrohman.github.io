@@ -115,6 +115,16 @@ Celeste: #5fb2a6
         background-position: center;
     }
 
+    .splash-img-counter-button {
+        height: 30vw;
+        width: 90vw;
+        margin: 0;
+        background-image: url('/images/productDesign/counterButton/IMG_0829.jpg');
+        background-size: 45vw;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
     /* ____________ Header ____________ */
 
     header {
@@ -261,6 +271,16 @@ Celeste: #5fb2a6
         height: 40vw;
         width: auto;
         margin: 0 1vw;
+    }
+
+    .panel-video {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .video-vertical {
+        height: auto;
+        width: 75vw;
     }
 
 
