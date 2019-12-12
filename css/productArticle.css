@@ -105,6 +105,16 @@ Celeste: #5fb2a6
         background-position: center;
     }
 
+    .splash-img-key-fob {
+        height: 30vw;
+        width: 90vw;
+        margin: 0;
+        background-image: url('/images/productDesign/customKeyFob/keyFobSplash.png');
+        background-size: 45vw;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
     /* ____________ Header ____________ */
 
     header {

@@ -128,8 +128,8 @@ nav {
     margin: .5vw;
     box-shadow: 0px 0px 7px -2px #BABABA;
     border-radius: 1vh;
-    background-image: url('/images/');
-    background-size: 150%;
+    background-image: url('/images/productDesign/customKeyFob/keyFobSplash.png');
+    background-size: 45vw;
     background-position: center;
     transition: transform 0.5s;
 }
@@ -205,8 +205,8 @@ nav {
     margin: .5vw;
     box-shadow: 0px 0px 7px -2px #BABABA;
     border-radius: 1vh;
-    background-image: url('/images/projects/couchTable.png');
-    background-size: 65vh;
+    background-image: url('/images/productDesign/misc/IMG_7294.jpg');
+    background-size: 65vw;
     background-position: center;
     transition: transform 0.5s;
 }
