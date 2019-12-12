@@ -85,6 +85,16 @@ Celeste: #5fb2a6
         background-position: center;
     }
 
+    .splash-img-rpigba {
+        height: 30vw;
+        width: 90vw;
+        margin: 0;
+        background-image: url('/images/productDesign/rpiGBA/rpigbaSplash.jpg');
+        background-size: 50vw;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
     /* ____________ Header ____________ */
 
     header {
