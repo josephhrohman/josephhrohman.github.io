@@ -193,6 +193,21 @@ Celeste: #5fb2a6
         width: 45%;
     }
 
+    .img-panel {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: 45vw;
+        width: 100vw;
+        overflow-x: auto;
+    }
+
+    .img-slide {
+        height: 40vw;
+        width: auto;
+        margin: 0 1vw;
+    }
+
 
     /* ____________ Footer ____________ */
 
