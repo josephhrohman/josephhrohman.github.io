@@ -129,7 +129,7 @@ Celeste: #5fb2a6
         height: 30vw;
         width: 90vw;
         margin: 0;
-        background-image: url('/images/productDesign/monitforStand/MonitorStandOp2_3.jpg');
+        background-image: url('/images/productDesign/monitforStand/MonitorStandBuilt_1.jpg');
         background-size: 45vw;
         background-repeat: no-repeat;
         background-position: center;
@@ -192,8 +192,8 @@ Celeste: #5fb2a6
 
     .img-left {
         display: flex;
-        /* flex-direction: column; */
-        flex-wrap: wrap;
+        flex-direction: column;
+        /* flex-wrap: wrap; */
         align-items: center;
         justify-content: space-around;
         width: 40vw;
@@ -261,6 +261,11 @@ Celeste: #5fb2a6
         height: auto;
         width: 65%;
         margin-right: 5vw;
+    }
+    
+    .product-img-tri {
+        height: auto;
+        width: 55%;
     }
     
     .product-img-quad {
