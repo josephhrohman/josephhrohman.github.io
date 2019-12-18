@@ -18,36 +18,69 @@ Celeste: #5fb2a6
     body {
         margin: 0;
         padding: 0;
+        background-image: url('/images/indexImg.jpg');
         background-color: #1e2428;
+        background-size: 100vw;
+        background-repeat: no-repeat;
     }
 
     /* ____________________________________ Index Page ____________________________________ */
 
     main {
+        background-color: rgba(0, 0, 0, 0.7);
+    }
+    
+    .media {
         display: flex;
         flex-direction: column;
-        align-items: center;
+        justify-content: space-around;
+        width: 50vw;
+        height: 100vh;
+        margin-left: 50vw;
+        background-color: rgba(0, 0, 0, 0.7);
+    }
+
+    .intro-container {
+        display: flex;
+        flex-direction: row;
         justify-content: center;
-        height: 90vh;
+        align-items: center;
+        width: 50vw;
+    }
+    
+    .intro:nth-child(1) {
+        font-size: 1.8em;
+        color: white;
+        width: 23vw;
+        margin: 0 10px 25px 0;
+        text-align: right;
+    }
+
+    .intro:nth-child(2){
+        height: 100px;
+    }
+
+    .intro:nth-child(3) {
+        font-size: 1.8em;
+        color: white;
+        width: 23vw;
+        margin: 25px 0 0 10px;
+        text-align: left;
     }
 
     .container {
         display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        width: 40vw;
-    }
-
-    .cont1-text {
-        font-size: 1.2em;
-        color: #888888;
-        margin: 10px;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        width: 50vw;
     }
 
     .link {
         font-size: 1.8em;
-        color: #898989;
+        color: white;
         text-decoration: none;
+        text-align: center;
         margin: 10px;
     }
 
@@ -67,3 +100,90 @@ Celeste: #5fb2a6
         width: 30px;
         margin: 5px;
     } 
+
+/* ____________ Responsive Index Page ____________ */
+
+
+    @media only screen and (max-width: 970px) { 
+        .intro:nth-child(1) {
+            font-size: 3vw;
+        }
+    
+        .intro:nth-child(2){
+            height: 75px;
+        }
+    
+        .intro:nth-child(3) {
+            font-size: 3vw;
+        }
+    }
+
+    @media only screen and (max-width: 740px) { 
+        body {
+            background-image: url('/images/indexImg.jpg');
+            background-size: 200vw;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        
+        .media {
+            align-items: center;
+            width: 100vw;
+            margin: 0;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+        
+        .intro-container {
+            width: 100vw;
+        }
+        
+        .intro:nth-child(1) {
+            font-size: 1.4em;
+            width: 49vw;
+            margin: 0 10px 25px 0;
+        }
+    
+        .intro:nth-child(2){
+            height: 75px;
+        }
+    
+        .intro:nth-child(3) {
+            font-size: 1.4em;
+            width: 49vw;
+            margin: 25px 0 0 10px;
+        }
+    
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-content: center;
+            width: 100vw;
+        }
+    
+        .link {
+            font-size: 1.8em;
+            color: white;
+            text-decoration: none;
+            text-align: center;
+            margin: 10px;
+        }
+    
+        .link:hover {
+            color: #5fb2a6;
+        }
+    
+        footer {
+            display: flex;
+            flex-direction: row;
+            width: 100vw;
+            justify-content: space-around;
+            align-items: center;
+        }
+    
+        .icons {
+            height: 45px;
+            width: 45px;
+            margin: 5px;
+        } 
+    }
